@@ -1,0 +1,10 @@
+# Intermediate figure output
+output/Figure/
+# R/RStudio
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+# OS
+.DS_Store
+Thumbs.db
