@@ -36,7 +36,7 @@ bootstrap_LRT <- function(data, G0, G1, modelName = "EEI", nboot = 100) {
 }
 
 # 计算BLRT p值（G=2vs1, 3vs2, 4vs3, 5vs4, 6vs5）
-compute_BLRT_all <- function(data, maxG = 6, modelName = "EEI", nboot = 100) {
+compute_BLRT_all <- function(data, maxG = 5, modelName = "EEI", nboot = 100) {
   blrt_p <- rep(NA, maxG)  # G=1时无BLRT
   for (k in 2:maxG) {
     cat("  BLRT: G=", k-1, " vs G=", k, "... ")
@@ -48,7 +48,7 @@ compute_BLRT_all <- function(data, maxG = 6, modelName = "EEI", nboot = 100) {
 }
 
 # 构建fit table（英文名，所有数字保留两位小数）
-build_fit_table <- function(cluster_obj, data, maxG = 6, modelName = "EEI",
+build_fit_table <- function(cluster_obj, data, maxG = 5, modelName = "EEI",
                             nboot = 100, label = "") {
   fit_raw <- get_fit(cluster_obj)
   
@@ -137,7 +137,7 @@ school_cluster <- estimate_profiles(school_select, 1:5)
 
 school_fit_table <- build_fit_table(
   school_cluster, as.matrix(school_select),
-  maxG = 6, modelName = "EEI", nboot = 100, label = "School Weariness"
+  maxG = 5, modelName = "EEI", nboot = 100, label = "School Weariness"
 )
 
 cla_schoolresult <- school_cluster$model_1_class_4$dff
@@ -174,7 +174,7 @@ internet_cluster <- estimate_profiles(internet_select, 1:5)
 
 internet_fit_table <- build_fit_table(
   internet_cluster, as.matrix(internet_select),
-  maxG = 6, modelName = "EEI", nboot = 100, label = "Internet Dependency"
+  maxG = 5, modelName = "EEI", nboot = 100, label = "Internet Dependency"
 )
 
 cla_internetresult <- internet_cluster$model_1_class_4$dff
@@ -214,7 +214,7 @@ injury_cluster <- estimate_profiles(injury_select, 1:5)
 
 injury_fit_table <- build_fit_table(
   injury_cluster, as.matrix(injury_select),
-  maxG = 6, modelName = "EEI", nboot = 100, label = "Bullying Victimization"
+  maxG = 5, modelName = "EEI", nboot = 100, label = "Bullying Victimization"
 )
 
 cla_injuryresult <- injury_cluster$model_1_class_4$dff
