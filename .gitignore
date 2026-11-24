@@ -8,3 +8,7 @@ output/Figure/
 # OS
 .DS_Store
 Thumbs.db
+
+# Restricted participant-level analysis inputs
+/output/figure_data.csv
+/output/LPA_analysis_data.RData

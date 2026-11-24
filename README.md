@@ -26,7 +26,7 @@ This command automatically installs all packages and the exact versions recorded
 
 ## Data Availability
 
-The raw data (emotion-sonar records, physical-fitness tests, and psychological assessments) are **not publicly available due to ethical restrictions**. The cleaned analysis dataset (`output/LPA_analysis_data.RData`) is provided, so that the mediation and moderated-mediation analyses (STEP4–STEP5) and both figures can be fully reproduced. STEP1–STEP3 require access to the raw data and are provided for full transparency of the data-integration and latent-profile-analysis workflow.
+The raw data (emotion-sonar records, physical-fitness tests, and psychological assessments) are **not publicly available due to ethical restrictions**. The participant-level analysis data used for STEP4–STEP5 and Figure 1 are restricted. Running these analyses requires an authorized local copy. STEP1–STEP3 require access to the raw data and are provided for full transparency of the data-integration and latent-profile-analysis workflow.
 
 ## About the Supplementary Files
 
