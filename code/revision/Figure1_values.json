@@ -1,0 +1,520 @@
+{
+  "n": 508,
+  "covariates": ["age", "sex"],
+  "profiles": [
+    {
+      "domain": "school",
+      "group": 1,
+      "n": 254,
+      "indicator": 1,
+      "est": 1.8149606299212599
+    },
+    {
+      "domain": "school",
+      "group": 2,
+      "n": 114,
+      "indicator": 1,
+      "est": 2.6403508771929824
+    },
+    {
+      "domain": "school",
+      "group": 3,
+      "n": 54,
+      "indicator": 1,
+      "est": 3.4074074074074074
+    },
+    {
+      "domain": "school",
+      "group": 4,
+      "n": 86,
+      "indicator": 1,
+      "est": 4.4534883720930232
+    },
+    {
+      "domain": "school",
+      "group": 1,
+      "n": 254,
+      "indicator": 2,
+      "est": 1.811023622047244
+    },
+    {
+      "domain": "school",
+      "group": 2,
+      "n": 114,
+      "indicator": 2,
+      "est": 3.3508771929824563
+    },
+    {
+      "domain": "school",
+      "group": 3,
+      "n": 54,
+      "indicator": 2,
+      "est": 1.5740740740740742
+    },
+    {
+      "domain": "school",
+      "group": 4,
+      "n": 86,
+      "indicator": 2,
+      "est": 4.4302325581395348
+    },
+    {
+      "domain": "school",
+      "group": 1,
+      "n": 254,
+      "indicator": 3,
+      "est": 1.6929133858267718
+    },
+    {
+      "domain": "school",
+      "group": 2,
+      "n": 114,
+      "indicator": 3,
+      "est": 2.5964912280701755
+    },
+    {
+      "domain": "school",
+      "group": 3,
+      "n": 54,
+      "indicator": 3,
+      "est": 4.4629629629629628
+    },
+    {
+      "domain": "school",
+      "group": 4,
+      "n": 86,
+      "indicator": 3,
+      "est": 4.7325581395348841
+    },
+    {
+      "domain": "internet",
+      "group": 1,
+      "n": 173,
+      "indicator": 1,
+      "est": 1
+    },
+    {
+      "domain": "internet",
+      "group": 2,
+      "n": 229,
+      "indicator": 1,
+      "est": 2.2620087336244543
+    },
+    {
+      "domain": "internet",
+      "group": 3,
+      "n": 83,
+      "indicator": 1,
+      "est": 4.6024096385542173
+    },
+    {
+      "domain": "internet",
+      "group": 4,
+      "n": 23,
+      "indicator": 1,
+      "est": 1.7391304347826086
+    },
+    {
+      "domain": "internet",
+      "group": 1,
+      "n": 173,
+      "indicator": 2,
+      "est": 1.1907514450867052
+    },
+    {
+      "domain": "internet",
+      "group": 2,
+      "n": 229,
+      "indicator": 2,
+      "est": 1.5982532751091703
+    },
+    {
+      "domain": "internet",
+      "group": 3,
+      "n": 83,
+      "indicator": 2,
+      "est": 2.0120481927710845
+    },
+    {
+      "domain": "internet",
+      "group": 4,
+      "n": 23,
+      "indicator": 2,
+      "est": 4.5652173913043477
+    },
+    {
+      "domain": "internet",
+      "group": 1,
+      "n": 173,
+      "indicator": 3,
+      "est": 1.1734104046242775
+    },
+    {
+      "domain": "internet",
+      "group": 2,
+      "n": 229,
+      "indicator": 3,
+      "est": 1.5109170305676856
+    },
+    {
+      "domain": "internet",
+      "group": 3,
+      "n": 83,
+      "indicator": 3,
+      "est": 1.9759036144578312
+    },
+    {
+      "domain": "internet",
+      "group": 4,
+      "n": 23,
+      "indicator": 3,
+      "est": 2.3043478260869565
+    },
+    {
+      "domain": "injury",
+      "group": 1,
+      "n": 384,
+      "indicator": 1,
+      "est": 1.4739583333333333
+    },
+    {
+      "domain": "injury",
+      "group": 2,
+      "n": 62,
+      "indicator": 1,
+      "est": 3.2419354838709675
+    },
+    {
+      "domain": "injury",
+      "group": 3,
+      "n": 50,
+      "indicator": 1,
+      "est": 2.48
+    },
+    {
+      "domain": "injury",
+      "group": 4,
+      "n": 12,
+      "indicator": 1,
+      "est": 3.8333333333333335
+    },
+    {
+      "domain": "injury",
+      "group": 1,
+      "n": 384,
+      "indicator": 2,
+      "est": 1.0677083333333333
+    },
+    {
+      "domain": "injury",
+      "group": 2,
+      "n": 62,
+      "indicator": 2,
+      "est": 1.1774193548387097
+    },
+    {
+      "domain": "injury",
+      "group": 3,
+      "n": 50,
+      "indicator": 2,
+      "est": 1.8200000000000001
+    },
+    {
+      "domain": "injury",
+      "group": 4,
+      "n": 12,
+      "indicator": 2,
+      "est": 3.5833333333333335
+    },
+    {
+      "domain": "injury",
+      "group": 1,
+      "n": 384,
+      "indicator": 3,
+      "est": 1
+    },
+    {
+      "domain": "injury",
+      "group": 2,
+      "n": 62,
+      "indicator": 3,
+      "est": 1
+    },
+    {
+      "domain": "injury",
+      "group": 3,
+      "n": 50,
+      "indicator": 3,
+      "est": 2.1200000000000001
+    },
+    {
+      "domain": "injury",
+      "group": 4,
+      "n": 12,
+      "indicator": 3,
+      "est": 1
+    }
+  ],
+  "figure1": [
+    {
+      "domain": "school",
+      "outcome": "thoughts",
+      "group": 1,
+      "n": 254,
+      "est": 2.0069159413224971,
+      "lower": 1.8286645830120254,
+      "upper": 2.185167299632969
+    },
+    {
+      "domain": "school",
+      "outcome": "thoughts",
+      "group": 2,
+      "n": 114,
+      "est": 2.7740803346765923,
+      "lower": 2.4714341360080851,
+      "upper": 3.0767265333450995
+    },
+    {
+      "domain": "school",
+      "outcome": "thoughts",
+      "group": 3,
+      "n": 54,
+      "est": 1.9239734044683381,
+      "lower": 1.2808247719525128,
+      "upper": 2.5671220369841636
+    },
+    {
+      "domain": "school",
+      "outcome": "thoughts",
+      "group": 4,
+      "n": 86,
+      "est": 2.3035305687170293,
+      "lower": 1.7829584398974414,
+      "upper": 2.8241026975366172
+    },
+    {
+      "domain": "school",
+      "outcome": "self_harm",
+      "group": 1,
+      "n": 254,
+      "est": 1.7387065087374596,
+      "lower": 1.579424462124835,
+      "upper": 1.8979885553500841
+    },
+    {
+      "domain": "school",
+      "outcome": "self_harm",
+      "group": 2,
+      "n": 114,
+      "est": 2.135876479708354,
+      "lower": 1.8576010850284514,
+      "upper": 2.4141518743882564
+    },
+    {
+      "domain": "school",
+      "outcome": "self_harm",
+      "group": 3,
+      "n": 54,
+      "est": 1.6524433619038339,
+      "lower": 1.1396213338272927,
+      "upper": 2.1652653899803749
+    },
+    {
+      "domain": "school",
+      "outcome": "self_harm",
+      "group": 4,
+      "n": 86,
+      "est": 1.8331010064084332,
+      "lower": 1.4513339222245651,
+      "upper": 2.2148680905923013
+    },
+    {
+      "domain": "internet",
+      "outcome": "thoughts",
+      "group": 1,
+      "n": 173,
+      "est": 2.1682550545726511,
+      "lower": 1.8587397557700369,
+      "upper": 2.4777703533752655
+    },
+    {
+      "domain": "internet",
+      "outcome": "thoughts",
+      "group": 2,
+      "n": 229,
+      "est": 2.0403736864083255,
+      "lower": 1.8199111551297482,
+      "upper": 2.260836217686903
+    },
+    {
+      "domain": "internet",
+      "outcome": "thoughts",
+      "group": 3,
+      "n": 83,
+      "est": 2.4898417918553895,
+      "lower": 2.1554046858727594,
+      "upper": 2.8242788978380196
+    },
+    {
+      "domain": "internet",
+      "outcome": "thoughts",
+      "group": 4,
+      "n": 23,
+      "est": 3.4343231585838505,
+      "lower": 2.7460493240684913,
+      "upper": 4.1225969930992097
+    },
+    {
+      "domain": "internet",
+      "outcome": "self_harm",
+      "group": 1,
+      "n": 173,
+      "est": 1.7333765104991614,
+      "lower": 1.4951960627583869,
+      "upper": 1.9715569582399359
+    },
+    {
+      "domain": "internet",
+      "outcome": "self_harm",
+      "group": 2,
+      "n": 229,
+      "est": 1.806164313658841,
+      "lower": 1.6125841569698089,
+      "upper": 1.9997444703478731
+    },
+    {
+      "domain": "internet",
+      "outcome": "self_harm",
+      "group": 3,
+      "n": 83,
+      "est": 2.0697626606185175,
+      "lower": 1.7438321753890429,
+      "upper": 2.3956931458479924
+    },
+    {
+      "domain": "internet",
+      "outcome": "self_harm",
+      "group": 4,
+      "n": 23,
+      "est": 2.0314754358449041,
+      "lower": 1.4332600988970068,
+      "upper": 2.6296907727928014
+    },
+    {
+      "domain": "injury",
+      "outcome": "thoughts",
+      "group": 1,
+      "n": 384,
+      "est": 2.010310198433777,
+      "lower": 1.8309607669560182,
+      "upper": 2.1896596299115356
+    },
+    {
+      "domain": "injury",
+      "outcome": "thoughts",
+      "group": 2,
+      "n": 62,
+      "est": 2.9250462178317447,
+      "lower": 2.5374924737514051,
+      "upper": 3.3125999619120843
+    },
+    {
+      "domain": "injury",
+      "outcome": "thoughts",
+      "group": 3,
+      "n": 50,
+      "est": 2.7440338370065436,
+      "lower": 2.3133721524424056,
+      "upper": 3.1746955215706816
+    },
+    {
+      "domain": "injury",
+      "outcome": "thoughts",
+      "group": 4,
+      "n": 12,
+      "est": 3.1238605371279258,
+      "lower": 2.1253882166520479,
+      "upper": 4.1223328576038041
+    },
+    {
+      "domain": "injury",
+      "outcome": "self_harm",
+      "group": 1,
+      "n": 384,
+      "est": 1.6265110214082517,
+      "lower": 1.4930047263724817,
+      "upper": 1.7600173164440216
+    },
+    {
+      "domain": "injury",
+      "outcome": "self_harm",
+      "group": 2,
+      "n": 62,
+      "est": 2.1247348112829667,
+      "lower": 1.7382220813257743,
+      "upper": 2.5112475412401589
+    },
+    {
+      "domain": "injury",
+      "outcome": "self_harm",
+      "group": 3,
+      "n": 50,
+      "est": 2.7951164501734813,
+      "lower": 2.3873674533150084,
+      "upper": 3.2028654470319542
+    },
+    {
+      "domain": "injury",
+      "outcome": "self_harm",
+      "group": 4,
+      "n": 12,
+      "est": 2.9941989142510637,
+      "lower": 2.112656590358533,
+      "upper": 3.8757412381435943
+    }
+  ],
+  "tests": [
+    {
+      "domain": "school",
+      "outcome": "thoughts",
+      "chi2": 19.375976349502498,
+      "df": 3,
+      "p": 0.00022857210544013749
+    },
+    {
+      "domain": "school",
+      "outcome": "self_harm",
+      "chi2": 6.3684968873115926,
+      "df": 3,
+      "p": 0.094995456754459584
+    },
+    {
+      "domain": "internet",
+      "outcome": "thoughts",
+      "chi2": 17.257530553697826,
+      "df": 3,
+      "p": 0.00062557124580380928
+    },
+    {
+      "domain": "internet",
+      "outcome": "self_harm",
+      "chi2": 3.2810489785032462,
+      "df": 3,
+      "p": 0.35028899561181404
+    },
+    {
+      "domain": "injury",
+      "outcome": "thoughts",
+      "chi2": 26.611387860824497,
+      "df": 3,
+      "p": 7.101830534151798e-06
+    },
+    {
+      "domain": "injury",
+      "outcome": "self_harm",
+      "chi2": 39.765844514007064,
+      "df": 3,
+      "p": 1.1945051926853709e-08
+    }
+  ]
+}

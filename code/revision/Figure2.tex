@@ -1,0 +1,92 @@
+% Figure 2. Build using Figure2.py in this folder.
+\documentclass[10pt,border=0.8mm]{standalone}
+\usepackage{fontspec,tikz,booktabs,array,graphicx,amsmath}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\setmainfont{Arial}
+\setsansfont{Arial}
+\input{Figure2_values.tex}
+\setlength{\parindent}{0pt}
+\begin{document}
+\begin{minipage}{18.50cm}
+\sffamily
+{\large\bfseries A.}\par\vspace{2pt}
+\centerline{%
+\begin{tikzpicture}[
+    box/.style={rectangle,rounded corners=4pt,draw=black,line width=.80pt,fill=white,
+                minimum width=2.8cm,minimum height=1.0cm,align=center,
+                font=\small\sffamily,inner sep=4pt},
+    sigline/.style={-{Stealth[length=4.8pt]},line width=.88pt,draw=black!84},
+    nsline/.style={-{Stealth[length=4.3pt]},line width=.74pt,draw=black!46,
+                   dash pattern=on 2.7pt off 2.1pt},
+    lbl/.style={font=\scriptsize,inner sep=.65pt,fill=white,text=black!85}]
+\ResultPathStyles
+% Original six-node arrangement. Separate ports keep arrowheads distinct at M and Y.
+\node[box] (BV)  at (-4,3)  {Bullying-victimization\\profiles ($X_1$)};
+\node[box] (AD)  at (-4,0)  {Academic-disengagement\\profiles ($X_2$)};
+\node[box] (IRI) at (-4,-3) {Internet-related-impairment\\profiles ($X_3$)};
+\node[box] (M)   at (2,0)   {Suicidal thoughts /\\preparation ($M$)};
+\node[box] (Y)   at (7.5,0) {Self-harm ($Y$)};
+\node[box] (Z)   at (2,4)   {Family support ($Z$)};
+
+\draw[firstOne]   (BV.east)  -- coordinate[pos=.65] (firstOneMid) ([yshift=4pt]M.west);
+\draw[firstTwo]   (AD.east)  -- coordinate[pos=.39] (firstTwoMid) (M.west);
+\draw[firstThree] (IRI.east) -- coordinate[pos=.52] (firstThreeMid) ([yshift=-4pt]M.west);
+\draw[second] (M.east) -- coordinate[pos=.49] (secondMid) (Y.west);
+\draw[directOne] (BV.east) -- coordinate[pos=.65] (directOneMid) (Y.north west);
+\draw[directTwo] ([yshift=1.1pt]AD.east)
+    .. controls + (2.65,1.78) and + (-2.65,1.50) ..
+    coordinate[pos=.46] (directTwoMid) ([yshift=4pt]Y.west);
+\draw[directThree] (IRI.east) -- coordinate[pos=.91] (directThreeMid) (Y.south west);
+
+% Each moderation arrow ends on the particular path it tests.
+\draw[firstOneZ] ([xshift=-7.0pt]Z.south) -- (firstOneMid);
+\draw[firstTwoZ] (Z.west) .. controls (-.28,2.11) and (-.94,.82) .. (firstTwoMid);
+\draw[firstThreeZ] ([xshift=-1.6pt]Z.south)
+    .. controls (.70,1.20) and (-.39,-.15) .. (firstThreeMid);
+\draw[directOneZ] ([xshift=13pt]Z.south) -- (directOneMid);
+\draw[directTwoZ] ([xshift=1.8pt]Z.south) -- (directTwoMid);
+\draw[secondZ] ([yshift=-2.5pt]Z.east) -- (secondMid);
+\draw[directThreeZ] ([yshift=4.0pt]Z.east)
+    .. controls (4.36,2.80) and (5.30,.51) .. (directThreeMid);
+
+\node[lbl] at (-1.51,1.77) {$a_1$};
+\node[lbl] at (-.58,-.24) {$a_2$};
+\node[lbl] at (-1.33,-1.49) {$a_3$};
+\node[lbl] at (4.50,-.24) {$b$};
+\node[lbl] at (-.86,2.83) {$c'_1$};
+\node[lbl] at (2.35,1.04) {$c'_2$};
+\node[lbl] at (1.84,-1.99) {$c'_3$};
+\node[lbl] at (.70,2.92) {$a_{1z}$};
+\node[lbl] at (-.13,3.31) {$a_{2z}$};
+\node[lbl] at (1.42,2.13) {$a_{3z}$};
+\node[lbl] at (3.78,1.96) {$b_z$};
+\node[lbl] at (3.03,2.87) {$c'_{1z}$};
+\node[lbl] at (2.15,2.64) {$c'_{2z}$};
+\node[lbl] at (5.16,1.76) {$c'_{3z}$};
+
+\draw[sigline] (4.60,-3.04) -- (5.14,-3.04);
+\node[anchor=west,font=\small\sffamily,inner sep=0pt] at (5.25,-3.04) {Significant path};
+\draw[nsline] (4.60,-3.48) -- (5.14,-3.48);
+\node[anchor=west,font=\small\sffamily,inner sep=0pt] at (5.25,-3.48) {Non-significant path};
+\end{tikzpicture}}\par\nointerlineskip\vspace{4pt}
+
+% The table and the single-axis conditional plot follow the original B/C layout.
+\begin{minipage}[t]{9.48cm}\vspace{0pt}
+{\large\bfseries B.}\par\vspace{2pt}
+\fontsize{7.4pt}{9.4pt}\selectfont
+\setlength{\tabcolsep}{2.0pt}\renewcommand{\arraystretch}{1.03}
+\begin{tabular*}{9.04cm}{@{}l@{\extracolsep{\fill}}ll@{\extracolsep{0pt}\hspace{5pt}}r@{\hspace{13pt}}l@{}}
+\toprule
+\textbf{Symbol} & \textbf{Path} &
+\begin{tabular}[c]{@{}l@{}}\textbf{Test / Est.}\\[-1pt]\textbf{[BC 95\% CI]}\end{tabular} &
+\textbf{$p$ Value} & \textbf{Direction}\\
+\ResultTable
+\bottomrule
+\end{tabular*}
+\end{minipage}\hfill
+\begin{minipage}[t]{8.74cm}\vspace{0pt}
+{\large\bfseries C.}\par\vspace{3pt}
+\includegraphics[width=\linewidth]{Figure2C.pdf}
+\end{minipage}
+\end{minipage}
+\end{document}
