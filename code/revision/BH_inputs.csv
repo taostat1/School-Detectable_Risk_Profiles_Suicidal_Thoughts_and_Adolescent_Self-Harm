@@ -1,0 +1,318 @@
+solution,family,table,row,test,p_raw,same_as,model_term
+4,a contrasts,S4,4,"BV, verbal victimization (C2 in four profiles)",7.853419669587754e-05,,coef:a_in2
+4,a contrasts,S4,5,"BV, physical victimization (C3 / C2)",0.008672711207687584,,coef:a_in3
+3,a contrasts,S4,5,"BV, physical victimization (C3 / C2)",0.04931646599538144,,coef:a_in3
+4,a contrasts,S4,6,"BV, mixed verbal-property victimization (C4 / C3)",0.053995947414052725,,coef:a_in4
+3,a contrasts,S4,6,"BV, mixed verbal-property victimization (C4 / C3)",0.10584788469740077,,coef:a_in4
+4,a contrasts,S4,7,"AD C2, moderate study-related strain",0.02042518769946991,,coef:a_s2
+3,a contrasts,S4,7,"AD C2, moderate study-related strain",0.02974556977619185,,coef:a_s2
+4,a contrasts,S4,8,"AD C1, low disengagement",0.6710603702750586,,coef:a_s1
+3,a contrasts,S4,8,"AD C1, low disengagement",0.7226441820119747,,coef:a_s1
+4,a contrasts,S4,9,"AD C4, pervasive disengagement",0.34423288925959394,,coef:a_s4
+3,a contrasts,S4,9,"AD C4, pervasive disengagement",0.38989289140858135,,coef:a_s4
+4,a contrasts,S4,10,"IRI C2, moderate impairment",0.1626287377009805,,coef:a_i2
+3,a contrasts,S4,10,"IRI C2, moderate impairment",0.16215093854956322,,coef:a_i2
+4,a contrasts,S4,11,"IRI C3, predominantly offline distress",0.9642524012051863,,coef:a_i3
+3,a contrasts,S4,11,"IRI C3, predominantly offline distress",0.6345707239812985,,coef:a_i3
+4,a contrasts,S4,12,"IRI C4, multidomain impairment",0.016858266992260056,,coef:a_i4
+3,a contrasts,S4,12,"IRI C4, multidomain impairment",0.01699516181394028,,coef:a_i4
+4,indirect contrasts,S4,16,"AD C2, moderate study-related strain",0.029773785117653412,,bootstrap:ind_s2
+3,indirect contrasts,S4,16,"AD C2, moderate study-related strain",0.04070853831361144,,bootstrap:ind_s2
+4,indirect contrasts,S4,17,"AD C1, low disengagement",0.6520383699961306,,bootstrap:ind_s1
+3,indirect contrasts,S4,17,"AD C1, low disengagement",0.6796856064291106,,bootstrap:ind_s1
+4,indirect contrasts,S4,18,"AD C4, pervasive disengagement",0.35676602055466183,,bootstrap:ind_s4
+3,indirect contrasts,S4,18,"AD C4, pervasive disengagement",0.3902454413661582,,bootstrap:ind_s4
+4,indirect contrasts,S4,19,"IRI C2, moderate impairment",0.18681763550413785,,bootstrap:ind_i2
+3,indirect contrasts,S4,19,"IRI C2, moderate impairment",0.19044736288709,,bootstrap:ind_i2
+4,indirect contrasts,S4,20,"IRI C3, predominantly offline distress",0.9252511333113744,,bootstrap:ind_i3
+3,indirect contrasts,S4,20,"IRI C3, predominantly offline distress",0.5054843169973409,,bootstrap:ind_i3
+4,indirect contrasts,S4,21,"IRI C4, multidomain impairment",0.012952869922110694,,bootstrap:ind_i4
+3,indirect contrasts,S4,21,"IRI C4, multidomain impairment",0.013825934901052177,,bootstrap:ind_i4
+4,indirect contrasts,S4,22,"BV, verbal victimization (C2 in four profiles)",0.00020245121110985912,,bootstrap:ind_in2
+4,indirect contrasts,S4,23,"BV, physical victimization (C3 / C2)",0.008999912473585036,,bootstrap:ind_in3
+3,indirect contrasts,S4,23,"BV, physical victimization (C3 / C2)",0.04681666505919669,,bootstrap:ind_in3
+4,indirect contrasts,S4,24,"BV, mixed verbal-property victimization (C4 / C3)",0.08618680805029622,,bootstrap:ind_in4
+3,indirect contrasts,S4,24,"BV, mixed verbal-property victimization (C4 / C3)",0.14180324497725288,,bootstrap:ind_in4
+4,sums of indirect contrasts,S4,26,AD contrasts combined,0.230817915425492,,bootstrap:sum_ind_school
+3,sums of indirect contrasts,S4,26,AD contrasts combined,0.26586943953185876,,bootstrap:sum_ind_school
+4,sums of indirect contrasts,S4,27,IRI contrasts combined,0.18145995138137447,,bootstrap:sum_ind_internet
+3,sums of indirect contrasts,S4,27,IRI contrasts combined,0.13194801814545967,,bootstrap:sum_ind_internet
+4,sums of indirect contrasts,S4,28,BV contrasts combined,0.0005740507040774013,,bootstrap:sum_ind_injury
+3,sums of indirect contrasts,S4,28,BV contrasts combined,0.036912167178021905,,bootstrap:sum_ind_injury
+4,direct contrasts,S4,30,"AD C2, moderate study-related strain",0.6970684361438558,,coef:c_s2
+3,direct contrasts,S4,30,"AD C2, moderate study-related strain",0.6973321150879005,,coef:c_s2
+4,direct contrasts,S4,31,"AD C1, low disengagement",0.8885680861996025,,coef:c_s1
+3,direct contrasts,S4,31,"AD C1, low disengagement",0.8846076953849883,,coef:c_s1
+4,direct contrasts,S4,32,"AD C4, pervasive disengagement",0.8071442639264785,,coef:c_s4
+3,direct contrasts,S4,32,"AD C4, pervasive disengagement",0.8047485690379156,,coef:c_s4
+4,direct contrasts,S4,33,"IRI C2, moderate impairment",0.5973328837294973,,coef:c_i2
+3,direct contrasts,S4,33,"IRI C2, moderate impairment",0.5980652298455311,,coef:c_i2
+4,direct contrasts,S4,34,"IRI C3, predominantly offline distress",0.6263055191565225,,coef:c_i3
+3,direct contrasts,S4,34,"IRI C3, predominantly offline distress",0.5821543864593772,,coef:c_i3
+4,direct contrasts,S4,35,"IRI C4, multidomain impairment",0.10809969634640716,,coef:c_i4
+3,direct contrasts,S4,35,"IRI C4, multidomain impairment",0.10873488125526475,,coef:c_i4
+4,direct contrasts,S4,36,"BV, verbal victimization (C2 in four profiles)",0.7492768825125631,,coef:c_in2
+4,direct contrasts,S4,37,"BV, physical victimization (C3 / C2)",4.0687505442299626e-05,,coef:c_in3
+3,direct contrasts,S4,37,"BV, physical victimization (C3 / C2)",4.171279142933631e-05,,coef:c_in3
+4,direct contrasts,S4,38,"BV, mixed verbal-property victimization (C4 / C3)",0.03869087367050945,,coef:c_in4
+3,direct contrasts,S4,38,"BV, mixed verbal-property victimization (C4 / C3)",0.04075449878710404,,coef:c_in4
+4,total contrasts,S4,40,"AD C2, moderate study-related strain",0.3052685556484807,,bootstrap:total_s2
+3,total contrasts,S4,40,"AD C2, moderate study-related strain",0.3066913376014637,,bootstrap:total_s2
+4,total contrasts,S4,41,"AD C1, low disengagement",0.8158213078851475,,bootstrap:total_s1
+3,total contrasts,S4,41,"AD C1, low disengagement",0.8320893878000017,,bootstrap:total_s1
+4,total contrasts,S4,42,"AD C4, pervasive disengagement",0.6443914613838448,,bootstrap:total_s4
+3,total contrasts,S4,42,"AD C4, pervasive disengagement",0.6648022348159739,,bootstrap:total_s4
+4,total contrasts,S4,43,"IRI C2, moderate impairment",0.7786081873288793,,bootstrap:total_i2
+3,total contrasts,S4,43,"IRI C2, moderate impairment",0.7518147648273696,,bootstrap:total_i2
+4,total contrasts,S4,44,"IRI C3, predominantly offline distress",0.6456121515562813,,bootstrap:total_i3
+3,total contrasts,S4,44,"IRI C3, predominantly offline distress",0.39412698346702485,,bootstrap:total_i3
+4,total contrasts,S4,45,"IRI C4, multidomain impairment",0.9111463072687334,,bootstrap:total_i4
+3,total contrasts,S4,45,"IRI C4, multidomain impairment",0.949766371728691,,bootstrap:total_i4
+4,total contrasts,S4,46,"BV, verbal victimization (C2 in four profiles)",0.03303831244274167,,bootstrap:total_in2
+4,total contrasts,S4,47,"BV, physical victimization (C3 / C2)",7.613031413593782e-05,,bootstrap:total_in3
+3,total contrasts,S4,47,"BV, physical victimization (C3 / C2)",8.867715850383646e-05,,bootstrap:total_in3
+4,total contrasts,S4,48,"BV, mixed verbal-property victimization (C4 / C3)",0.03406409278325227,,bootstrap:total_in4
+3,total contrasts,S4,48,"BV, mixed verbal-property victimization (C4 / C3)",0.04264887913279515,,bootstrap:total_in4
+4,covariates,S4,50,Age (years) -> M,0.432724396542925,,coef:a_age
+3,covariates,S4,50,Age (years) -> M,0.3277410615696696,,coef:a_age
+4,covariates,S4,51,Male (vs female) -> M,3.9556511318739043e-05,,coef:a_sex
+3,covariates,S4,51,Male (vs female) -> M,0.0004040342571492783,,coef:a_sex
+4,covariates,S4,52,Age (years) -> Y,0.013074324354937196,,coef:c_age
+3,covariates,S4,52,Age (years) -> Y,0.012661276643738579,,coef:c_age
+4,covariates,S4,53,Male (vs female) -> Y,0.26455334572906913,,coef:c_sex
+3,covariates,S4,53,Male (vs female) -> Y,0.29469925260226204,,coef:c_sex
+4,main paths,S4,55,AD -> M,0.00533503341135035,,path:school:a
+3,main paths,S4,55,AD -> M,0.004495483335553707,,path:school:a
+4,main paths,S4,56,IRI -> M,0.01563522850741885,,path:internet:a
+3,main paths,S4,56,IRI -> M,0.011661704927292623,,path:internet:a
+4,main paths,S4,57,BV -> M,5.6951117285063576e-05,,path:injury:a
+3,main paths,S4,57,BV -> M,0.04973135744475972,,path:injury:a
+4,main paths,S4,59,M -> Y,1.4912761344854798e-30,,path:all:b
+3,main paths,S4,59,M -> Y,2.8009713884591365e-30,,path:all:b
+4,main paths,S4,65,"AD -> Y, controlling for M",0.9798717245220284,,path:school:c_prime
+3,main paths,S4,65,"AD -> Y, controlling for M",0.980061710412024,,path:school:c_prime
+4,main paths,S4,66,"IRI -> Y, controlling for M",0.30046518739536293,,path:internet:c_prime
+3,main paths,S4,66,"IRI -> Y, controlling for M",0.2971459347949347,,path:internet:c_prime
+4,main paths,S4,67,"BV -> Y, controlling for M",0.00013089569502044326,,path:injury:c_prime
+3,main paths,S4,67,"BV -> Y, controlling for M",3.896389603049089e-05,,path:injury:c_prime
+4,omnibus indirect tests,S4,61,AD relative indirect contrasts,0.009529471562176014,,joint:school
+3,omnibus indirect tests,S4,61,AD relative indirect contrasts,0.006812367066149424,,joint:school
+4,omnibus indirect tests,S4,62,IRI relative indirect contrasts,0.016650412055483253,,joint:internet
+3,omnibus indirect tests,S4,62,IRI relative indirect contrasts,0.014611558847630001,,joint:internet
+4,omnibus indirect tests,S4,63,BV relative indirect contrasts,0.0005434357430212278,,joint:injury
+3,omnibus indirect tests,S4,63,BV relative indirect contrasts,0.0576710592235098,,joint:injury
+4,main paths,S4,14,M -> Y,1.4912761344854614e-30,59,coef:b
+3,main paths,S4,14,M -> Y,2.8009713884591583e-30,59,coef:b
+4,a contrasts,S5,4,"BV, verbal victimization (C2 in four profiles)",0.00012307939113194083,,coef:a_in2
+4,a contrasts,S5,5,"BV, physical victimization (C3 / C2)",0.0724010435089341,,coef:a_in3
+3,a contrasts,S5,5,"BV, physical victimization (C3 / C2)",0.24192874790318983,,coef:a_in3
+4,a contrasts,S5,6,"BV, mixed verbal-property victimization (C4 / C3)",0.8485726108881266,,coef:a_in4
+3,a contrasts,S5,6,"BV, mixed verbal-property victimization (C4 / C3)",0.8360254793037198,,coef:a_in4
+4,a contrasts,S5,7,"AD C2, moderate study-related strain",0.0034683575302691164,,coef:a_s2
+3,a contrasts,S5,7,"AD C2, moderate study-related strain",0.006846367913392634,,coef:a_s2
+4,a contrasts,S5,8,"AD C1, low disengagement",0.40303540930431614,,coef:a_s1
+3,a contrasts,S5,8,"AD C1, low disengagement",0.48194550830242466,,coef:a_s1
+4,a contrasts,S5,9,"AD C4, pervasive disengagement",0.5618527990059573,,coef:a_s4
+3,a contrasts,S5,9,"AD C4, pervasive disengagement",0.6222991805464111,,coef:a_s4
+4,a contrasts,S5,10,"IRI C2, moderate impairment",0.17544263697438342,,coef:a_i2
+3,a contrasts,S5,10,"IRI C2, moderate impairment",0.17375210563048166,,coef:a_i2
+4,a contrasts,S5,11,"IRI C3, predominantly offline distress",0.9021808867050184,,coef:a_i3
+3,a contrasts,S5,11,"IRI C3, predominantly offline distress",0.5435969880717046,,coef:a_i3
+4,a contrasts,S5,12,"IRI C4, multidomain impairment",0.02137818292608277,,coef:a_i4
+3,a contrasts,S5,12,"IRI C4, multidomain impairment",0.01927990693299568,,coef:a_i4
+4,a interaction contrasts,S5,14,"AD C2, moderate study-related strain",0.36859753607402235,,coef:a_sh2
+3,a interaction contrasts,S5,14,"AD C2, moderate study-related strain",0.35751121757204357,,coef:a_sh2
+4,a interaction contrasts,S5,15,"AD C1, low disengagement",0.20764796439542313,,coef:a_sh1
+3,a interaction contrasts,S5,15,"AD C1, low disengagement",0.16203365593795455,,coef:a_sh1
+4,a interaction contrasts,S5,16,"AD C4, pervasive disengagement",0.1415231268594412,,coef:a_sh4
+3,a interaction contrasts,S5,16,"AD C4, pervasive disengagement",0.1512930808075626,,coef:a_sh4
+4,a interaction contrasts,S5,17,"IRI C2, moderate impairment",0.4778670359383504,,coef:a_ih2
+3,a interaction contrasts,S5,17,"IRI C2, moderate impairment",0.3680541461750191,,coef:a_ih2
+4,a interaction contrasts,S5,18,"IRI C3, predominantly offline distress",0.6187015895653225,,coef:a_ih3
+3,a interaction contrasts,S5,18,"IRI C3, predominantly offline distress",0.8651685349527833,,coef:a_ih3
+4,a interaction contrasts,S5,19,"IRI C4, multidomain impairment",0.1266029618424455,,coef:a_ih4
+3,a interaction contrasts,S5,19,"IRI C4, multidomain impairment",0.12771810653142393,,coef:a_ih4
+4,a interaction contrasts,S5,20,"BV, verbal victimization (C2 in four profiles)",0.716656156802413,,coef:a_inh2
+4,a interaction contrasts,S5,21,"BV, physical victimization (C3 / C2)",0.3629154907880013,,coef:a_inh3
+3,a interaction contrasts,S5,21,"BV, physical victimization (C3 / C2)",0.44554673775895454,,coef:a_inh3
+4,a interaction contrasts,S5,22,"BV, mixed verbal-property victimization (C4 / C3)",0.3060911228231693,,coef:a_inh4
+3,a interaction contrasts,S5,22,"BV, mixed verbal-property victimization (C4 / C3)",0.3205136796038232,,coef:a_inh4
+4,direct contrasts,S5,27,"AD C2, moderate study-related strain",0.6596271611374531,,coef:c_s2
+3,direct contrasts,S5,27,"AD C2, moderate study-related strain",0.6669947009542241,,coef:c_s2
+4,direct contrasts,S5,28,"AD C1, low disengagement",0.5618561574541789,,coef:c_s1
+3,direct contrasts,S5,28,"AD C1, low disengagement",0.47947814150879875,,coef:c_s1
+4,direct contrasts,S5,29,"AD C4, pervasive disengagement",0.6848046005763175,,coef:c_s4
+3,direct contrasts,S5,29,"AD C4, pervasive disengagement",0.7577612740036503,,coef:c_s4
+4,direct contrasts,S5,30,"IRI C2, moderate impairment",0.5056032242731019,,coef:c_i2
+3,direct contrasts,S5,30,"IRI C2, moderate impairment",0.4041226962748771,,coef:c_i2
+4,direct contrasts,S5,31,"IRI C3, predominantly offline distress",0.6508528495412635,,coef:c_i3
+3,direct contrasts,S5,31,"IRI C3, predominantly offline distress",0.4916739489997001,,coef:c_i3
+4,direct contrasts,S5,32,"IRI C4, multidomain impairment",0.13016713068124394,,coef:c_i4
+3,direct contrasts,S5,32,"IRI C4, multidomain impairment",0.11376414058598405,,coef:c_i4
+4,direct contrasts,S5,33,"BV, verbal victimization (C2 in four profiles)",0.9070773513767988,,coef:c_in2
+4,direct contrasts,S5,34,"BV, physical victimization (C3 / C2)",0.0001180257847288829,,coef:c_in3
+3,direct contrasts,S5,34,"BV, physical victimization (C3 / C2)",0.00018600842219706164,,coef:c_in3
+4,direct contrasts,S5,35,"BV, mixed verbal-property victimization (C4 / C3)",0.00024576114470008654,,coef:c_in4
+3,direct contrasts,S5,35,"BV, mixed verbal-property victimization (C4 / C3)",0.0002692292309888271,,coef:c_in4
+4,family main terms,S5,37,Z -> M in the reference profiles,0.8065696164879729,,coef:a_z
+3,family main terms,S5,37,Z -> M in the reference profiles,0.7155874133369393,,coef:a_z
+4,family main terms,S5,38,Z -> Y in the reference profiles at M = 0,0.8460767813403267,,coef:c_z
+3,family main terms,S5,38,Z -> Y in the reference profiles at M = 0,0.8919298775869959,,coef:c_z
+4,direct interaction contrasts,S5,40,"AD C2, moderate study-related strain",0.09764913593244881,,coef:c_sh2
+3,direct interaction contrasts,S5,40,"AD C2, moderate study-related strain",0.16528892777904883,,coef:c_sh2
+4,direct interaction contrasts,S5,41,"AD C1, low disengagement",0.10071751092679254,,coef:c_sh1
+3,direct interaction contrasts,S5,41,"AD C1, low disengagement",0.149398946266466,,coef:c_sh1
+4,direct interaction contrasts,S5,42,"AD C4, pervasive disengagement",0.0728097469640738,,coef:c_sh4
+3,direct interaction contrasts,S5,42,"AD C4, pervasive disengagement",0.09857090895973228,,coef:c_sh4
+4,direct interaction contrasts,S5,43,"IRI C2, moderate impairment",0.8354892308807307,,coef:c_ih2
+3,direct interaction contrasts,S5,43,"IRI C2, moderate impairment",0.8841091112826225,,coef:c_ih2
+4,direct interaction contrasts,S5,44,"IRI C3, predominantly offline distress",0.7497770408937148,,coef:c_ih3
+3,direct interaction contrasts,S5,44,"IRI C3, predominantly offline distress",0.9937221136696011,,coef:c_ih3
+4,direct interaction contrasts,S5,45,"IRI C4, multidomain impairment",0.2991478426207855,,coef:c_ih4
+3,direct interaction contrasts,S5,45,"IRI C4, multidomain impairment",0.24975131186325567,,coef:c_ih4
+4,direct interaction contrasts,S5,46,"BV, verbal victimization (C2 in four profiles)",0.0030562943481996867,,coef:c_inh2
+4,direct interaction contrasts,S5,47,"BV, physical victimization (C3 / C2)",0.08198191337405357,,coef:c_inh3
+3,direct interaction contrasts,S5,47,"BV, physical victimization (C3 / C2)",0.2170369988095936,,coef:c_inh3
+4,direct interaction contrasts,S5,48,"BV, mixed verbal-property victimization (C4 / C3)",0.04012132898808269,,coef:c_inh4
+3,direct interaction contrasts,S5,48,"BV, mixed verbal-property victimization (C4 / C3)",0.018575029228870873,,coef:c_inh4
+4,covariates,S5,50,Age (years) -> M,0.26719514548114653,,coef:a_age
+3,covariates,S5,50,Age (years) -> M,0.19611003810480004,,coef:a_age
+4,covariates,S5,51,Male (vs female) -> M,2.8181441872120446e-06,,coef:a_sex
+3,covariates,S5,51,Male (vs female) -> M,3.1901962595842606e-05,,coef:a_sex
+4,covariates,S5,52,Age (years) -> Y,0.0027915938539813073,,coef:c_age
+3,covariates,S5,52,Age (years) -> Y,0.0020677576856839336,,coef:c_age
+4,covariates,S5,53,Male (vs female) -> Y,0.04798974575652483,,coef:c_sex
+3,covariates,S5,53,Male (vs female) -> Y,0.0984398642146228,,coef:c_sex
+4,conditional indirect contrasts,S5,55,"AD C2, moderate study-related strain",0.0801068135234847,,bootstrap:ind_s2_low
+3,conditional indirect contrasts,S5,55,"AD C2, moderate study-related strain",0.09930327684808733,,bootstrap:ind_s2_low
+4,conditional indirect contrasts,S5,56,"AD C1, low disengagement",0.3559692679302727,,bootstrap:ind_s1_low
+3,conditional indirect contrasts,S5,56,"AD C1, low disengagement",0.36346707567211917,,bootstrap:ind_s1_low
+4,conditional indirect contrasts,S5,57,"AD C4, pervasive disengagement",0.2269511459835176,,bootstrap:ind_s4_low
+3,conditional indirect contrasts,S5,57,"AD C4, pervasive disengagement",0.2721525228962154,,bootstrap:ind_s4_low
+4,conditional indirect contrasts,S5,58,"IRI C2, moderate impairment",0.9194653617258237,,bootstrap:ind_i2_low
+3,conditional indirect contrasts,S5,58,"IRI C2, moderate impairment",0.9767496289364112,,bootstrap:ind_i2_low
+4,conditional indirect contrasts,S5,59,"IRI C3, predominantly offline distress",0.9931131197669062,,bootstrap:ind_i3_low
+3,conditional indirect contrasts,S5,59,"IRI C3, predominantly offline distress",0.5690276476197758,,bootstrap:ind_i3_low
+4,conditional indirect contrasts,S5,60,"IRI C4, multidomain impairment",0.010263269830187612,,bootstrap:ind_i4_low
+3,conditional indirect contrasts,S5,60,"IRI C4, multidomain impairment",0.007948187114637737,,bootstrap:ind_i4_low
+4,conditional indirect contrasts,S5,61,"BV, verbal victimization (C2 in four profiles)",0.006310847272438444,,bootstrap:ind_in2_low
+4,conditional indirect contrasts,S5,62,"BV, physical victimization (C3 / C2)",0.03224484307691549,,bootstrap:ind_in3_low
+3,conditional indirect contrasts,S5,62,"BV, physical victimization (C3 / C2)",0.12345858697688838,,bootstrap:ind_in3_low
+4,conditional indirect contrasts,S5,63,"BV, mixed verbal-property victimization (C4 / C3)",0.4580501392796742,,bootstrap:ind_in4_low
+3,conditional indirect contrasts,S5,63,"BV, mixed verbal-property victimization (C4 / C3)",0.6618168876190237,,bootstrap:ind_in4_low
+4,conditional indirect contrasts,S5,65,"AD C2, moderate study-related strain",0.008676250948504055,,bootstrap:ind_s2_mean
+3,conditional indirect contrasts,S5,65,"AD C2, moderate study-related strain",0.012083338811130202,,bootstrap:ind_s2_mean
+4,conditional indirect contrasts,S5,66,"AD C1, low disengagement",0.3829861417578773,,bootstrap:ind_s1_mean
+3,conditional indirect contrasts,S5,66,"AD C1, low disengagement",0.4235713987184149,,bootstrap:ind_s1_mean
+4,conditional indirect contrasts,S5,67,"AD C4, pervasive disengagement",0.5531414879802721,,bootstrap:ind_s4_mean
+3,conditional indirect contrasts,S5,67,"AD C4, pervasive disengagement",0.5948940559639286,,bootstrap:ind_s4_mean
+4,conditional indirect contrasts,S5,68,"IRI C2, moderate impairment",0.24312915590594444,,bootstrap:ind_i2_mean
+3,conditional indirect contrasts,S5,68,"IRI C2, moderate impairment",0.2521779215185991,,bootstrap:ind_i2_mean
+4,conditional indirect contrasts,S5,69,"IRI C3, predominantly offline distress",0.7348436884263071,,bootstrap:ind_i3_mean
+3,conditional indirect contrasts,S5,69,"IRI C3, predominantly offline distress",0.38387559024533674,,bootstrap:ind_i3_mean
+4,conditional indirect contrasts,S5,70,"IRI C4, multidomain impairment",0.022616444163234814,,bootstrap:ind_i4_mean
+3,conditional indirect contrasts,S5,70,"IRI C4, multidomain impairment",0.022247341860293403,,bootstrap:ind_i4_mean
+4,conditional indirect contrasts,S5,71,"BV, verbal victimization (C2 in four profiles)",0.00028440651592365375,,bootstrap:ind_in2_mean
+4,conditional indirect contrasts,S5,72,"BV, physical victimization (C3 / C2)",0.06883176294907109,,bootstrap:ind_in3_mean
+3,conditional indirect contrasts,S5,72,"BV, physical victimization (C3 / C2)",0.2392074375013359,,bootstrap:ind_in3_mean
+4,conditional indirect contrasts,S5,73,"BV, mixed verbal-property victimization (C4 / C3)",0.8287070812239605,,bootstrap:ind_in4_mean
+3,conditional indirect contrasts,S5,73,"BV, mixed verbal-property victimization (C4 / C3)",0.8902735612789656,,bootstrap:ind_in4_mean
+4,conditional indirect contrasts,S5,75,"AD C2, moderate study-related strain",0.3254994496420665,,bootstrap:ind_s2_high
+3,conditional indirect contrasts,S5,75,"AD C2, moderate study-related strain",0.40307584584636635,,bootstrap:ind_s2_high
+4,conditional indirect contrasts,S5,76,"AD C1, low disengagement",0.41438578992775477,,bootstrap:ind_s1_high
+3,conditional indirect contrasts,S5,76,"AD C1, low disengagement",0.307411507536281,,bootstrap:ind_s1_high
+4,conditional indirect contrasts,S5,77,"AD C4, pervasive disengagement",0.3249745757685148,,bootstrap:ind_s4_high
+3,conditional indirect contrasts,S5,77,"AD C4, pervasive disengagement",0.327641458832098,,bootstrap:ind_s4_high
+4,conditional indirect contrasts,S5,78,"IRI C2, moderate impairment",0.07632718102857321,,bootstrap:ind_i2_high
+3,conditional indirect contrasts,S5,78,"IRI C2, moderate impairment",0.04106892486421325,,bootstrap:ind_i2_high
+4,conditional indirect contrasts,S5,79,"IRI C3, predominantly offline distress",0.5600818945590699,,bootstrap:ind_i3_high
+3,conditional indirect contrasts,S5,79,"IRI C3, predominantly offline distress",0.4655480806924744,,bootstrap:ind_i3_high
+4,conditional indirect contrasts,S5,80,"IRI C4, multidomain impairment",0.1845209237701303,,bootstrap:ind_i4_high
+3,conditional indirect contrasts,S5,80,"IRI C4, multidomain impairment",0.1852191507573665,,bootstrap:ind_i4_high
+4,conditional indirect contrasts,S5,81,"BV, verbal victimization (C2 in four profiles)",0.007111060734409207,,bootstrap:ind_in2_high
+4,conditional indirect contrasts,S5,82,"BV, physical victimization (C3 / C2)",0.6694471563697063,,bootstrap:ind_in3_high
+3,conditional indirect contrasts,S5,82,"BV, physical victimization (C3 / C2)",0.8847955916476814,,bootstrap:ind_in3_high
+4,conditional indirect contrasts,S5,83,"BV, mixed verbal-property victimization (C4 / C3)",0.6881540413511219,,bootstrap:ind_in4_high
+3,conditional indirect contrasts,S5,83,"BV, mixed verbal-property victimization (C4 / C3)",0.5791642860651293,,bootstrap:ind_in4_high
+4,high minus low,S5,85,"AD C2, moderate study-related strain",0.27262294934020287,,bootstrap:delta_s2
+3,high minus low,S5,85,"AD C2, moderate study-related strain",0.27229101343001616,,bootstrap:delta_s2
+4,high minus low,S5,86,"AD C1, low disengagement",0.33044941107041614,,bootstrap:delta_s1
+3,high minus low,S5,86,"AD C1, low disengagement",0.3331022784360009,,bootstrap:delta_s1
+4,high minus low,S5,87,"AD C4, pervasive disengagement",0.19900277840511818,,bootstrap:delta_s4
+3,high minus low,S5,87,"AD C4, pervasive disengagement",0.2317514312146914,,bootstrap:delta_s4
+4,high minus low,S5,88,"IRI C2, moderate impairment",0.6392113349621735,,bootstrap:delta_i2
+3,high minus low,S5,88,"IRI C2, moderate impairment",0.5524796034441524,,bootstrap:delta_i2
+4,high minus low,S5,89,"IRI C3, predominantly offline distress",0.820958795313337,,bootstrap:delta_i3
+3,high minus low,S5,89,"IRI C3, predominantly offline distress",0.8016775135848541,,bootstrap:delta_i3
+4,high minus low,S5,90,"IRI C4, multidomain impairment",0.032540327180423934,,bootstrap:delta_i4
+3,high minus low,S5,90,"IRI C4, multidomain impairment",0.025427723235931038,,bootstrap:delta_i4
+4,high minus low,S5,91,"BV, verbal victimization (C2 in four profiles)",0.20927931768979985,,bootstrap:delta_in2
+4,high minus low,S5,92,"BV, physical victimization (C3 / C2)",0.16351449316961272,,bootstrap:delta_in3
+3,high minus low,S5,92,"BV, physical victimization (C3 / C2)",0.24710398969667158,,bootstrap:delta_in3
+4,high minus low,S5,93,"BV, mixed verbal-property victimization (C4 / C3)",0.3672125781331064,,bootstrap:delta_in4
+3,high minus low,S5,93,"BV, mixed verbal-property victimization (C4 / C3)",0.41089023934542884,,bootstrap:delta_in4
+4,conditional sums,S5,95,"AD, low (-1 SD) family support",0.2257158422719205,,bootstrap:sum_ind_school_low
+3,conditional sums,S5,95,"AD, low (-1 SD) family support",0.2533106947761686,,bootstrap:sum_ind_school_low
+4,conditional sums,S5,96,"AD, mean family support",0.14156899540885978,,bootstrap:sum_ind_school_mean
+3,conditional sums,S5,96,"AD, mean family support",0.17256287613621013,,bootstrap:sum_ind_school_mean
+4,conditional sums,S5,97,"AD, high (+1 SD) family support",0.7591359640747658,,bootstrap:sum_ind_school_high
+3,conditional sums,S5,97,"AD, high (+1 SD) family support",0.6885220992851702,,bootstrap:sum_ind_school_high
+4,conditional sums,S5,98,"IRI, low (-1 SD) family support",0.18104390618938765,,bootstrap:sum_ind_internet_low
+3,conditional sums,S5,98,"IRI, low (-1 SD) family support",0.11343674253859214,,bootstrap:sum_ind_internet_low
+4,conditional sums,S5,99,"IRI, mean family support",0.19425338887417276,,bootstrap:sum_ind_internet_mean
+3,conditional sums,S5,99,"IRI, mean family support",0.13176257271673714,,bootstrap:sum_ind_internet_mean
+4,conditional sums,S5,100,"IRI, high (+1 SD) family support",0.5851895044948889,,bootstrap:sum_ind_internet_high
+3,conditional sums,S5,100,"IRI, high (+1 SD) family support",0.5799028317774422,,bootstrap:sum_ind_internet_high
+4,conditional sums,S5,101,"BV, low (-1 SD) family support",0.01163607833039223,,bootstrap:sum_ind_injury_low
+3,conditional sums,S5,101,"BV, low (-1 SD) family support",0.2652154568598729,,bootstrap:sum_ind_injury_low
+4,conditional sums,S5,102,"BV, mean family support",0.014278399497375817,,bootstrap:sum_ind_injury_mean
+3,conditional sums,S5,102,"BV, mean family support",0.6791481693301331,,bootstrap:sum_ind_injury_mean
+4,conditional sums,S5,103,"BV, high (+1 SD) family support",0.48013133355642285,,bootstrap:sum_ind_injury_high
+3,conditional sums,S5,103,"BV, high (+1 SD) family support",0.5809204922696458,,bootstrap:sum_ind_injury_high
+4,main paths,S5,105,AD -> M,0.00670570179283863,,path:school:a
+3,main paths,S5,105,AD -> M,0.008575401839492357,,path:school:a
+4,main paths,S5,106,IRI -> M,0.020369332578675455,,path:internet:a
+3,main paths,S5,106,IRI -> M,0.013518232219376473,,path:internet:a
+4,main paths,S5,107,BV -> M,0.0008224250569835208,,path:injury:a
+3,main paths,S5,107,BV -> M,0.4825884144961255,,path:injury:a
+4,main paths,S5,109,M -> Y,3.170875204029504e-25,,path:all:b
+3,main paths,S5,109,M -> Y,2.842217684511108e-25,,path:all:b
+4,main paths,S5,115,"AD -> Y, controlling for M",0.9499561369739579,,path:school:c_prime
+3,main paths,S5,115,"AD -> Y, controlling for M",0.9145086514993715,,path:school:c_prime
+4,main paths,S5,116,"IRI -> Y, controlling for M",0.3246876962949456,,path:internet:c_prime
+3,main paths,S5,116,"IRI -> Y, controlling for M",0.22517232186325634,,path:internet:c_prime
+4,main paths,S5,117,"BV -> Y, controlling for M",4.719548359641558e-06,,path:injury:c_prime
+3,main paths,S5,117,"BV -> Y, controlling for M",2.261550509489696e-06,,path:injury:c_prime
+4,omnibus indirect tests,S5,111,AD relative indirect contrasts,0.01252114516715311,,joint:school
+3,omnibus indirect tests,S5,111,AD relative indirect contrasts,0.01230521099927147,,joint:school
+4,omnibus indirect tests,S5,112,IRI relative indirect contrasts,0.022712978166379297,,joint:internet
+3,omnibus indirect tests,S5,112,IRI relative indirect contrasts,0.018430989988311827,,joint:internet
+4,omnibus indirect tests,S5,113,BV relative indirect contrasts,0.002818265836913468,,joint:injury
+3,omnibus indirect tests,S5,113,BV relative indirect contrasts,0.48793694603656873,,joint:injury
+4,interactions,S5,119,AD x Z -> M,0.5015262419249115,,path:school:a_by_family
+3,interactions,S5,119,AD x Z -> M,0.4651916012114655,,path:school:a_by_family
+4,interactions,S5,120,IRI x Z -> M,0.20652784966036258,,path:internet:a_by_family
+3,interactions,S5,120,IRI x Z -> M,0.2586772370727385,,path:internet:a_by_family
+4,interactions,S5,121,BV x Z -> M,0.6109051734463251,,path:injury:a_by_family
+3,interactions,S5,121,BV x Z -> M,0.4699150239350628,,path:injury:a_by_family
+4,interactions,S5,122,M x Z -> Y,0.002307866103576026,,path:all:b_by_family
+3,interactions,S5,122,M x Z -> Y,0.0006574438965500094,,path:all:b_by_family
+4,interactions,S5,123,AD x Z -> Y,0.24391211117499279,,path:school:c_prime_by_family
+3,interactions,S5,123,AD x Z -> Y,0.33560400799417583,,path:school:c_prime_by_family
+4,interactions,S5,124,IRI x Z -> Y,0.7134196313825932,,path:internet:c_prime_by_family
+3,interactions,S5,124,IRI x Z -> Y,0.6626821846075586,,path:internet:c_prime_by_family
+4,interactions,S5,125,BV x Z -> Y,0.0013134062293066787,,path:injury:c_prime_by_family
+3,interactions,S5,125,BV x Z -> Y,0.03239621254506022,,path:injury:c_prime_by_family
+4,main paths,S5,24,M -> Y at mean family support (b),3.1708752040295393e-25,109,coef:b
+3,main paths,S5,24,M -> Y at mean family support (b),2.8422176845111317e-25,109,coef:b
+4,interactions,S5,25,M x Z -> Y,0.0023078661035760323,122,coef:b_z
+3,interactions,S5,25,M x Z -> Y,0.0006574438965500081,122,coef:b_z
+4,six profile comparisons,T2,1,school.thoughts,0.0002285721054401375,,school.thoughts
+4,six profile comparisons,T2,2,school.self_harm,0.09499545675445958,,school.self_harm
+4,six profile comparisons,T2,3,internet.thoughts,0.0006255712458038093,,internet.thoughts
+4,six profile comparisons,T2,4,internet.self_harm,0.35028899561181404,,internet.self_harm
+4,six profile comparisons,T2,5,injury.thoughts,7.101830534151798e-06,,injury.thoughts
+4,six profile comparisons,T2,6,injury.self_harm,1.194505192685371e-08,,injury.self_harm
+0,sex comparisons,T1,1,Thoughts/preparation,0.040743642457681646,,thoughts
+0,sex comparisons,T1,2,Self-harm,0.03249658371926084,,self_harm
+0,sex comparisons,T1,3,Both,0.21324989437852634,,both

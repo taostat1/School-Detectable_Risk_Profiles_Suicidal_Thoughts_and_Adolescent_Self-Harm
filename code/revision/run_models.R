@@ -16,6 +16,7 @@ if (dir.exists(private_lib)) .libPaths(c(private_lib, .libPaths()))
 source(file.path(here, "read_study.R"), encoding="UTF-8")
 source(file.path(here, "model_functions.R"), encoding="UTF-8")
 source(file.path(here, "Figure1_ANCOVA.R"), encoding="UTF-8")
+source(file.path(here, "apply_BH.R"), encoding="UTF-8")
 study <- read_study(project, file.path(dirname(here), "STEP1_data_integration.R"))
 d <- study$four
 t3 <- study$three
@@ -41,6 +42,16 @@ write_summary <- function(x, filename) {
 }
 fig1 <- figure1_ancova(d, qn, age_c, sex, list(thoughts=m, self_harm=y))
 write_summary(fig1, "Figure1_values.json")
+bh_inputs <- read.csv(file.path(here, "BH_inputs.csv"), stringsAsFactors=FALSE)
+# The catalogue supplies only the row definitions. Every probability below is refitted.
+bh_inputs$p_raw <- NA_real_
+t1 <- bh_inputs$table == "T1"
+screens <- list(thoughts=m >= 4, self_harm=y >= 4, both=(m >= 4 & y >= 4))
+sex_p <- vapply(screens, function(screen) chisq.test(table(sex, screen), correct=FALSE)$p.value, numeric(1))
+bh_inputs$p_raw[t1] <- sex_p[bh_inputs$model_term[t1]]
+t2 <- bh_inputs$table == "T2"
+ancova_p <- setNames(fig1$tests$p, paste(fig1$tests$domain, fig1$tests$outcome, sep="."))
+bh_inputs$p_raw[t2] <- ancova_p[bh_inputs$model_term[t2]]
 B <- 10000L
 set.seed(2026L)
 blocks <- split(seq_len(N), factor(cluster, levels=seq_len(G)))
@@ -107,13 +118,24 @@ for (which in c("three_moderated","three_unmoderated","four_unmoderated","four_m
   }))))
   wb <- joint(cc,"m"); wtab <- rbind(wtab,data.frame(domain="all",path="b",t(wb),row.names=NULL)[S])
  }
+ wtab$p_bh <- ave(wtab$p, endsWith(wtab$path, "by_family"), FUN=function(p) p.adjust(p, method="BH"))
  ij <- indirect_joint(ds)[c("domain","df","chi2","p")]
+ ij$p_bh <- p.adjust(ij$p, method="BH")
+ tab <- if (moderated) "S5" else "S4"
+ selected <- bh_inputs$table == tab & bh_inputs$solution == k
+ probabilities <- c(setNames(band$p_wald, paste0("coef:", band$label)),
+                    setNames(band$p_bc, paste0("bootstrap:", band$label)),
+                    setNames(wtab$p, paste("path", wtab$domain, wtab$path, sep=":")),
+                    setNames(ij$p, paste0("joint:", ij$domain)))
+ bh_inputs$p_raw[selected] <- probabilities[bh_inputs$model_term[selected]]
  out[[which]] <- list(bands=band,tests=wtab,indirect_joint=ij,
    R2_M=1-sum(lm.fit(ds$x,m)$residuals^2)/sum((m-mean(m))^2),
    R2_Y=1-sum(lm.fit(ds$z,y)$residuals^2)/sum((y-mean(y))^2))
   message(which, " complete")
 }
 write_summary(out, "supplement_models.json")
+options(digits=17)
+write.csv(bh_results(bh_inputs), file.path(outdir, "BH_results.csv"), row.names=FALSE, na="", fileEncoding="UTF-8")
 
 # Only the four-profile model supplies Figure 2. Export the plotted statistics.
 primary <- out$four_moderated
@@ -125,5 +147,5 @@ estimates <- setNames(lapply(seq_len(nrow(plotted)), function(i) {
   as.list(plotted[i, fields, drop=FALSE])
 }), plotted$label)
 write_summary(list(n=N, profiles=4L, family_items=c(4L,36L), covariates=c("age","sex"),
-  test="Student-clustered HC1 Wald, unadjusted p", source="supplement_models.json, four_moderated",
+  test="Student-clustered HC1 Wald; p is unadjusted, p_bh is adjusted within seven main paths or seven interactions.", source="supplement_models.json, four_moderated",
   tests=primary$tests, estimates=estimates), "Figure2_data.json")

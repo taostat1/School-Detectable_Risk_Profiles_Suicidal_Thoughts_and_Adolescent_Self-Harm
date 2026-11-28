@@ -1,0 +1,318 @@
+"solution","family","table","row","test","p_raw","same_as","p_BH","family_size","significant"
+4,"a contrasts","S4",4,"BV, verbal victimization (C2 in four profiles)",7.85341966958775e-05,,0.000706807770262898,9,TRUE
+4,"a contrasts","S4",5,"BV, physical victimization (C3 / C2)",0.00867271120768758,,0.0390272004345941,9,TRUE
+3,"a contrasts","S4",5,"BV, physical victimization (C3 / C2)",0.0493164659953814,,0.131510575987684,8,FALSE
+4,"a contrasts","S4",6,"BV, mixed verbal-property victimization (C4 / C3)",0.0539959474140527,,0.0971927053452949,9,FALSE
+3,"a contrasts","S4",6,"BV, mixed verbal-property victimization (C4 / C3)",0.105847884697401,,0.211695769394802,8,FALSE
+4,"a contrasts","S4",7,"AD C2, moderate study-related strain",0.0204251876994699,,0.0459566723238073,9,TRUE
+3,"a contrasts","S4",7,"AD C2, moderate study-related strain",0.0297455697761918,,0.118982279104767,8,FALSE
+4,"a contrasts","S4",8,"AD C1, low disengagement",0.671060370275059,,0.754942916559441,9,FALSE
+3,"a contrasts","S4",8,"AD C1, low disengagement",0.722644182011975,,0.722644182011975,8,FALSE
+4,"a contrasts","S4",9,"AD C4, pervasive disengagement",0.344232889259594,,0.442585143333764,9,FALSE
+3,"a contrasts","S4",9,"AD C4, pervasive disengagement",0.389892891408581,,0.519857188544775,8,FALSE
+4,"a contrasts","S4",10,"IRI C2, moderate impairment",0.16262873770098,,0.243943106551471,9,FALSE
+3,"a contrasts","S4",10,"IRI C2, moderate impairment",0.162150938549563,,0.259441501679301,8,FALSE
+4,"a contrasts","S4",11,"IRI C3, predominantly offline distress",0.964252401205186,,0.964252401205186,9,FALSE
+3,"a contrasts","S4",11,"IRI C3, predominantly offline distress",0.634570723981299,,0.722644182011975,8,FALSE
+4,"a contrasts","S4",12,"IRI C4, multidomain impairment",0.0168582669922601,,0.0459566723238073,9,TRUE
+3,"a contrasts","S4",12,"IRI C4, multidomain impairment",0.0169951618139403,,0.118982279104767,8,FALSE
+4,"indirect contrasts","S4",16,"AD C2, moderate study-related strain",0.0297737851176534,,0.0669910165147202,9,FALSE
+3,"indirect contrasts","S4",16,"AD C2, moderate study-related strain",0.0407085383136114,,0.124844440157858,8,FALSE
+4,"indirect contrasts","S4",17,"AD C1, low disengagement",0.652038369996131,,0.733543166245647,9,FALSE
+3,"indirect contrasts","S4",17,"AD C1, low disengagement",0.679685606429111,,0.679685606429111,8,FALSE
+4,"indirect contrasts","S4",18,"AD C4, pervasive disengagement",0.356766020554662,,0.458699169284565,9,FALSE
+3,"indirect contrasts","S4",18,"AD C4, pervasive disengagement",0.390245441366158,,0.520327255154878,8,FALSE
+4,"indirect contrasts","S4",19,"IRI C2, moderate impairment",0.186817635504138,,0.280226453256207,9,FALSE
+3,"indirect contrasts","S4",19,"IRI C2, moderate impairment",0.19044736288709,,0.304715780619344,8,FALSE
+4,"indirect contrasts","S4",20,"IRI C3, predominantly offline distress",0.925251133311374,,0.925251133311374,9,FALSE
+3,"indirect contrasts","S4",20,"IRI C3, predominantly offline distress",0.505484316997341,,0.577696362282675,8,FALSE
+4,"indirect contrasts","S4",21,"IRI C4, multidomain impairment",0.0129528699221107,,0.0388586097663321,9,TRUE
+3,"indirect contrasts","S4",21,"IRI C4, multidomain impairment",0.0138259349010522,,0.110607479208417,8,FALSE
+4,"indirect contrasts","S4",22,"BV, verbal victimization (C2 in four profiles)",0.000202451211109859,,0.00182206089998873,9,TRUE
+4,"indirect contrasts","S4",23,"BV, physical victimization (C3 / C2)",0.00899991247358504,,0.0388586097663321,9,TRUE
+3,"indirect contrasts","S4",23,"BV, physical victimization (C3 / C2)",0.0468166650591967,,0.124844440157858,8,FALSE
+4,"indirect contrasts","S4",24,"BV, mixed verbal-property victimization (C4 / C3)",0.0861868080502962,,0.155136254490533,9,FALSE
+3,"indirect contrasts","S4",24,"BV, mixed verbal-property victimization (C4 / C3)",0.141803244977253,,0.283606489954506,8,FALSE
+4,"sums of indirect contrasts","S4",26,"AD contrasts combined",0.230817915425492,,0.230817915425492,3,FALSE
+3,"sums of indirect contrasts","S4",26,"AD contrasts combined",0.265869439531859,,0.265869439531859,3,FALSE
+4,"sums of indirect contrasts","S4",27,"IRI contrasts combined",0.181459951381374,,0.230817915425492,3,FALSE
+3,"sums of indirect contrasts","S4",27,"IRI contrasts combined",0.13194801814546,,0.19792202721819,3,FALSE
+4,"sums of indirect contrasts","S4",28,"BV contrasts combined",0.000574050704077401,,0.0017221521122322,3,TRUE
+3,"sums of indirect contrasts","S4",28,"BV contrasts combined",0.0369121671780219,,0.110736501534066,3,FALSE
+4,"direct contrasts","S4",30,"AD C2, moderate study-related strain",0.697068436143856,,0.888568086199602,9,FALSE
+3,"direct contrasts","S4",30,"AD C2, moderate study-related strain",0.6973321150879,,0.884607695384988,8,FALSE
+4,"direct contrasts","S4",31,"AD C1, low disengagement",0.888568086199602,,0.888568086199602,9,FALSE
+3,"direct contrasts","S4",31,"AD C1, low disengagement",0.884607695384988,,0.884607695384988,8,FALSE
+4,"direct contrasts","S4",32,"AD C4, pervasive disengagement",0.807144263926479,,0.888568086199602,9,FALSE
+3,"direct contrasts","S4",32,"AD C4, pervasive disengagement",0.804748569037916,,0.884607695384988,8,FALSE
+4,"direct contrasts","S4",33,"IRI C2, moderate impairment",0.597332883729497,,0.888568086199602,9,FALSE
+3,"direct contrasts","S4",33,"IRI C2, moderate impairment",0.598065229845531,,0.884607695384988,8,FALSE
+4,"direct contrasts","S4",34,"IRI C3, predominantly offline distress",0.626305519156523,,0.888568086199602,9,FALSE
+3,"direct contrasts","S4",34,"IRI C3, predominantly offline distress",0.582154386459377,,0.884607695384988,8,FALSE
+4,"direct contrasts","S4",35,"IRI C4, multidomain impairment",0.108099696346407,,0.324299089039221,9,FALSE
+3,"direct contrasts","S4",35,"IRI C4, multidomain impairment",0.108734881255265,,0.289959683347373,8,FALSE
+4,"direct contrasts","S4",36,"BV, verbal victimization (C2 in four profiles)",0.749276882512563,,0.888568086199602,9,FALSE
+4,"direct contrasts","S4",37,"BV, physical victimization (C3 / C2)",4.06875054422996e-05,,0.000366187548980697,9,TRUE
+3,"direct contrasts","S4",37,"BV, physical victimization (C3 / C2)",4.17127914293363e-05,,0.00033370233143469,8,TRUE
+4,"direct contrasts","S4",38,"BV, mixed verbal-property victimization (C4 / C3)",0.0386908736705094,,0.174108931517293,9,FALSE
+3,"direct contrasts","S4",38,"BV, mixed verbal-property victimization (C4 / C3)",0.040754498787104,,0.163017995148416,8,FALSE
+4,"total contrasts","S4",40,"AD C2, moderate study-related strain",0.305268555648481,,0.686854250209082,9,FALSE
+3,"total contrasts","S4",40,"AD C2, moderate study-related strain",0.306691337601464,,0.78825396693405,8,FALSE
+4,"total contrasts","S4",41,"AD C1, low disengagement",0.815821307885148,,0.911146307268733,9,FALSE
+3,"total contrasts","S4",41,"AD C1, low disengagement",0.832089387800002,,0.949766371728691,8,FALSE
+4,"total contrasts","S4",42,"AD C4, pervasive disengagement",0.644391461383845,,0.911146307268733,9,FALSE
+3,"total contrasts","S4",42,"AD C4, pervasive disengagement",0.664802234815974,,0.949766371728691,8,FALSE
+4,"total contrasts","S4",43,"IRI C2, moderate impairment",0.778608187328879,,0.911146307268733,9,FALSE
+3,"total contrasts","S4",43,"IRI C2, moderate impairment",0.75181476482737,,0.949766371728691,8,FALSE
+4,"total contrasts","S4",44,"IRI C3, predominantly offline distress",0.645612151556281,,0.911146307268733,9,FALSE
+3,"total contrasts","S4",44,"IRI C3, predominantly offline distress",0.394126983467025,,0.78825396693405,8,FALSE
+4,"total contrasts","S4",45,"IRI C4, multidomain impairment",0.911146307268733,,0.911146307268733,9,FALSE
+3,"total contrasts","S4",45,"IRI C4, multidomain impairment",0.949766371728691,,0.949766371728691,8,FALSE
+4,"total contrasts","S4",46,"BV, verbal victimization (C2 in four profiles)",0.0330383124427417,,0.102192278349757,9,FALSE
+4,"total contrasts","S4",47,"BV, physical victimization (C3 / C2)",7.61303141359378e-05,,0.00068517282722344,9,TRUE
+3,"total contrasts","S4",47,"BV, physical victimization (C3 / C2)",8.86771585038365e-05,,0.000709417268030692,8,TRUE
+4,"total contrasts","S4",48,"BV, mixed verbal-property victimization (C4 / C3)",0.0340640927832523,,0.102192278349757,9,FALSE
+3,"total contrasts","S4",48,"BV, mixed verbal-property victimization (C4 / C3)",0.0426488791327952,,0.170595516531181,8,FALSE
+4,"covariates","S4",50,"Age (years) -> M",0.432724396542925,,0.432724396542925,4,FALSE
+3,"covariates","S4",50,"Age (years) -> M",0.32774106156967,,0.32774106156967,4,FALSE
+4,"covariates","S4",51,"Male (vs female) -> M",3.9556511318739e-05,,0.000158226045274956,4,TRUE
+3,"covariates","S4",51,"Male (vs female) -> M",0.000404034257149278,,0.00161613702859711,4,TRUE
+4,"covariates","S4",52,"Age (years) -> Y",0.0130743243549372,,0.0261486487098744,4,TRUE
+3,"covariates","S4",52,"Age (years) -> Y",0.0126612766437386,,0.0253225532874772,4,TRUE
+4,"covariates","S4",53,"Male (vs female) -> Y",0.264553345729069,,0.352737794305426,4,FALSE
+3,"covariates","S4",53,"Male (vs female) -> Y",0.294699252602262,,0.32774106156967,4,FALSE
+4,"main paths","S4",55,"AD -> M",0.00533503341135035,,0.00933630846986311,7,TRUE
+3,"main paths","S4",55,"AD -> M",0.00449548333555371,,0.010489461116292,7,TRUE
+4,"main paths","S4",56,"IRI -> M",0.0156352285074189,,0.0218893199103864,7,TRUE
+3,"main paths","S4",56,"IRI -> M",0.0116617049272926,,0.0204079836227621,7,TRUE
+4,"main paths","S4",57,"BV -> M",5.69511172850636e-05,,0.000199328910497723,7,TRUE
+3,"main paths","S4",57,"BV -> M",0.0497313574447597,,0.0696239004226636,7,FALSE
+4,"main paths","S4",59,"M -> Y",1.49127613448548e-30,,1.04389329413984e-29,7,TRUE
+3,"main paths","S4",59,"M -> Y",2.80097138845914e-30,,1.9606799719214e-29,7,TRUE
+4,"main paths","S4",65,"AD -> Y, controlling for M",0.979871724522028,,0.979871724522028,7,FALSE
+3,"main paths","S4",65,"AD -> Y, controlling for M",0.980061710412024,,0.980061710412024,7,FALSE
+4,"main paths","S4",66,"IRI -> Y, controlling for M",0.300465187395363,,0.350542718627923,7,FALSE
+3,"main paths","S4",66,"IRI -> Y, controlling for M",0.297145934794935,,0.346670257260757,7,FALSE
+4,"main paths","S4",67,"BV -> Y, controlling for M",0.000130895695020443,,0.000305423288381034,7,TRUE
+3,"main paths","S4",67,"BV -> Y, controlling for M",3.89638960304909e-05,,0.000136373636106718,7,TRUE
+4,"omnibus indirect tests","S4",61,"AD relative indirect contrasts",0.00952947156217601,,0.014294207343264,3,TRUE
+3,"omnibus indirect tests","S4",61,"AD relative indirect contrasts",0.00681236706614942,,0.0204371011984483,3,TRUE
+4,"omnibus indirect tests","S4",62,"IRI relative indirect contrasts",0.0166504120554833,,0.0166504120554833,3,TRUE
+3,"omnibus indirect tests","S4",62,"IRI relative indirect contrasts",0.01461155884763,,0.021917338271445,3,TRUE
+4,"omnibus indirect tests","S4",63,"BV relative indirect contrasts",0.000543435743021228,,0.00163030722906368,3,TRUE
+3,"omnibus indirect tests","S4",63,"BV relative indirect contrasts",0.0576710592235098,,0.0576710592235098,3,FALSE
+4,"main paths","S4",14,"M -> Y",1.49127613448546e-30,59,1.04389329413984e-29,7,TRUE
+3,"main paths","S4",14,"M -> Y",2.80097138845916e-30,59,1.9606799719214e-29,7,TRUE
+4,"a contrasts","S5",4,"BV, verbal victimization (C2 in four profiles)",0.000123079391131941,,0.00110771452018747,9,TRUE
+4,"a contrasts","S5",5,"BV, physical victimization (C3 / C2)",0.0724010435089341,,0.162902347895102,9,FALSE
+3,"a contrasts","S5",5,"BV, physical victimization (C3 / C2)",0.24192874790319,,0.48385749580638,8,FALSE
+4,"a contrasts","S5",6,"BV, mixed verbal-property victimization (C4 / C3)",0.848572610888127,,0.902180886705018,9,FALSE
+3,"a contrasts","S5",6,"BV, mixed verbal-property victimization (C4 / C3)",0.83602547930372,,0.83602547930372,8,FALSE
+4,"a contrasts","S5",7,"AD C2, moderate study-related strain",0.00346835753026912,,0.015607608886211,9,TRUE
+3,"a contrasts","S5",7,"AD C2, moderate study-related strain",0.00684636791339263,,0.0547709433071411,8,FALSE
+4,"a contrasts","S5",8,"AD C1, low disengagement",0.403035409304316,,0.604553113956474,9,FALSE
+3,"a contrasts","S5",8,"AD C1, low disengagement",0.481945508302425,,0.711199063481613,8,FALSE
+4,"a contrasts","S5",9,"AD C4, pervasive disengagement",0.561852799005957,,0.722382170150517,9,FALSE
+3,"a contrasts","S5",9,"AD C4, pervasive disengagement",0.622299180546411,,0.711199063481613,8,FALSE
+4,"a contrasts","S5",10,"IRI C2, moderate impairment",0.175442636974383,,0.31579674655389,9,FALSE
+3,"a contrasts","S5",10,"IRI C2, moderate impairment",0.173752105630482,,0.463338948347951,8,FALSE
+4,"a contrasts","S5",11,"IRI C3, predominantly offline distress",0.902180886705018,,0.902180886705018,9,FALSE
+3,"a contrasts","S5",11,"IRI C3, predominantly offline distress",0.543596988071705,,0.711199063481613,8,FALSE
+4,"a contrasts","S5",12,"IRI C4, multidomain impairment",0.0213781829260828,,0.0641345487782483,9,FALSE
+3,"a contrasts","S5",12,"IRI C4, multidomain impairment",0.0192799069329957,,0.0771196277319827,8,FALSE
+4,"a interaction contrasts","S5",14,"AD C2, moderate study-related strain",0.368597536074022,,0.552896304111034,9,FALSE
+3,"a interaction contrasts","S5",14,"AD C2, moderate study-related strain",0.357511217572044,,0.490738861566692,8,FALSE
+4,"a interaction contrasts","S5",15,"AD C1, low disengagement",0.207647964395423,,0.552896304111034,9,FALSE
+3,"a interaction contrasts","S5",15,"AD C1, low disengagement",0.162033655937955,,0.432089749167879,8,FALSE
+4,"a interaction contrasts","S5",16,"AD C4, pervasive disengagement",0.141523126859441,,0.552896304111034,9,FALSE
+3,"a interaction contrasts","S5",16,"AD C4, pervasive disengagement",0.151293080807563,,0.432089749167879,8,FALSE
+4,"a interaction contrasts","S5",17,"IRI C2, moderate impairment",0.47786703593835,,0.614400474777879,9,FALSE
+3,"a interaction contrasts","S5",17,"IRI C2, moderate impairment",0.368054146175019,,0.490738861566692,8,FALSE
+4,"a interaction contrasts","S5",18,"IRI C3, predominantly offline distress",0.618701589565323,,0.696039288260988,9,FALSE
+3,"a interaction contrasts","S5",18,"IRI C3, predominantly offline distress",0.865168534952783,,0.865168534952783,8,FALSE
+4,"a interaction contrasts","S5",19,"IRI C4, multidomain impairment",0.126602961842445,,0.552896304111034,9,FALSE
+3,"a interaction contrasts","S5",19,"IRI C4, multidomain impairment",0.127718106531424,,0.432089749167879,8,FALSE
+4,"a interaction contrasts","S5",20,"BV, verbal victimization (C2 in four profiles)",0.716656156802413,,0.716656156802413,9,FALSE
+4,"a interaction contrasts","S5",21,"BV, physical victimization (C3 / C2)",0.362915490788001,,0.552896304111034,9,FALSE
+3,"a interaction contrasts","S5",21,"BV, physical victimization (C3 / C2)",0.445546737758955,,0.509196271724519,8,FALSE
+4,"a interaction contrasts","S5",22,"BV, mixed verbal-property victimization (C4 / C3)",0.306091122823169,,0.552896304111034,9,FALSE
+3,"a interaction contrasts","S5",22,"BV, mixed verbal-property victimization (C4 / C3)",0.320513679603823,,0.490738861566692,8,FALSE
+4,"direct contrasts","S5",27,"AD C2, moderate study-related strain",0.659627161137453,,0.770405175648357,9,FALSE
+3,"direct contrasts","S5",27,"AD C2, moderate study-related strain",0.666994700954224,,0.75776127400365,8,FALSE
+4,"direct contrasts","S5",28,"AD C1, low disengagement",0.561856157454179,,0.770405175648357,9,FALSE
+3,"direct contrasts","S5",28,"AD C1, low disengagement",0.479478141508799,,0.655565265332933,8,FALSE
+4,"direct contrasts","S5",29,"AD C4, pervasive disengagement",0.684804600576318,,0.770405175648357,9,FALSE
+3,"direct contrasts","S5",29,"AD C4, pervasive disengagement",0.75776127400365,,0.75776127400365,8,FALSE
+4,"direct contrasts","S5",30,"IRI C2, moderate impairment",0.505603224273102,,0.770405175648357,9,FALSE
+3,"direct contrasts","S5",30,"IRI C2, moderate impairment",0.404122696274877,,0.655565265332933,8,FALSE
+4,"direct contrasts","S5",31,"IRI C3, predominantly offline distress",0.650852849541264,,0.770405175648357,9,FALSE
+3,"direct contrasts","S5",31,"IRI C3, predominantly offline distress",0.4916739489997,,0.655565265332933,8,FALSE
+4,"direct contrasts","S5",32,"IRI C4, multidomain impairment",0.130167130681244,,0.390501392043732,9,FALSE
+3,"direct contrasts","S5",32,"IRI C4, multidomain impairment",0.113764140585984,,0.303371041562624,8,FALSE
+4,"direct contrasts","S5",33,"BV, verbal victimization (C2 in four profiles)",0.907077351376799,,0.907077351376799,9,FALSE
+4,"direct contrasts","S5",34,"BV, physical victimization (C3 / C2)",0.000118025784728883,,0.00106223206255995,9,TRUE
+3,"direct contrasts","S5",34,"BV, physical victimization (C3 / C2)",0.000186008422197062,,0.00107691692395531,8,TRUE
+4,"direct contrasts","S5",35,"BV, mixed verbal-property victimization (C4 / C3)",0.000245761144700087,,0.00110592515115039,9,TRUE
+3,"direct contrasts","S5",35,"BV, mixed verbal-property victimization (C4 / C3)",0.000269229230988827,,0.00107691692395531,8,TRUE
+4,"family main terms","S5",37,"Z -> M in the reference profiles",0.806569616487973,,0.846076781340327,2,FALSE
+3,"family main terms","S5",37,"Z -> M in the reference profiles",0.715587413336939,,0.891929877586996,2,FALSE
+4,"family main terms","S5",38,"Z -> Y in the reference profiles at M = 0",0.846076781340327,,0.846076781340327,2,FALSE
+3,"family main terms","S5",38,"Z -> Y in the reference profiles at M = 0",0.891929877586996,,0.891929877586996,2,FALSE
+4,"direct interaction contrasts","S5",40,"AD C2, moderate study-related strain",0.0976491359324488,,0.151076266390189,9,FALSE
+3,"direct interaction contrasts","S5",40,"AD C2, moderate study-related strain",0.165288927779049,,0.330577855558098,8,FALSE
+4,"direct interaction contrasts","S5",41,"AD C1, low disengagement",0.100717510926793,,0.151076266390189,9,FALSE
+3,"direct interaction contrasts","S5",41,"AD C1, low disengagement",0.149398946266466,,0.330577855558098,8,FALSE
+4,"direct interaction contrasts","S5",42,"AD C4, pervasive disengagement",0.0728097469640738,,0.151076266390189,9,FALSE
+3,"direct interaction contrasts","S5",42,"AD C4, pervasive disengagement",0.0985709089597323,,0.330577855558098,8,FALSE
+4,"direct interaction contrasts","S5",43,"IRI C2, moderate impairment",0.835489230880731,,0.835489230880731,9,FALSE
+3,"direct interaction contrasts","S5",43,"IRI C2, moderate impairment",0.884109111282622,,0.993722113669601,8,FALSE
+4,"direct interaction contrasts","S5",44,"IRI C3, predominantly offline distress",0.749777040893715,,0.835489230880731,9,FALSE
+3,"direct interaction contrasts","S5",44,"IRI C3, predominantly offline distress",0.993722113669601,,0.993722113669601,8,FALSE
+4,"direct interaction contrasts","S5",45,"IRI C4, multidomain impairment",0.299147842620785,,0.384618654798153,9,FALSE
+3,"direct interaction contrasts","S5",45,"IRI C4, multidomain impairment",0.249751311863256,,0.333001749151008,8,FALSE
+4,"direct interaction contrasts","S5",46,"BV, verbal victimization (C2 in four profiles)",0.00305629434819969,,0.0275066491337972,9,TRUE
+4,"direct interaction contrasts","S5",47,"BV, physical victimization (C3 / C2)",0.0819819133740536,,0.151076266390189,9,FALSE
+3,"direct interaction contrasts","S5",47,"BV, physical victimization (C3 / C2)",0.217036998809594,,0.333001749151008,8,FALSE
+4,"direct interaction contrasts","S5",48,"BV, mixed verbal-property victimization (C4 / C3)",0.0401213289880827,,0.151076266390189,9,FALSE
+3,"direct interaction contrasts","S5",48,"BV, mixed verbal-property victimization (C4 / C3)",0.0185750292288709,,0.148600233830967,8,FALSE
+4,"covariates","S5",50,"Age (years) -> M",0.267195145481147,,0.267195145481147,4,FALSE
+3,"covariates","S5",50,"Age (years) -> M",0.1961100381048,,0.1961100381048,4,FALSE
+4,"covariates","S5",51,"Male (vs female) -> M",2.81814418721204e-06,,1.12725767488482e-05,4,TRUE
+3,"covariates","S5",51,"Male (vs female) -> M",3.19019625958426e-05,,0.00012760785038337,4,TRUE
+4,"covariates","S5",52,"Age (years) -> Y",0.00279159385398131,,0.00558318770796261,4,TRUE
+3,"covariates","S5",52,"Age (years) -> Y",0.00206775768568393,,0.00413551537136787,4,TRUE
+4,"covariates","S5",53,"Male (vs female) -> Y",0.0479897457565248,,0.0639863276753664,4,FALSE
+3,"covariates","S5",53,"Male (vs female) -> Y",0.0984398642146228,,0.131253152286164,4,FALSE
+4,"conditional indirect contrasts","S5",55,"AD C2, moderate study-related strain",0.0801068135234847,,0.216288396513409,27,FALSE
+3,"conditional indirect contrasts","S5",55,"AD C2, moderate study-related strain",0.0993032768480873,,0.476655728870819,24,FALSE
+4,"conditional indirect contrasts","S5",56,"AD C1, low disengagement",0.355969267930273,,0.600698139632335,27,FALSE
+3,"conditional indirect contrasts","S5",56,"AD C1, low disengagement",0.363467075672119,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",57,"AD C4, pervasive disengagement",0.226951145983518,,0.504960554573885,27,FALSE
+3,"conditional indirect contrasts","S5",57,"AD C4, pervasive disengagement",0.272152522896215,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",58,"IRI C2, moderate impairment",0.919465361725824,,0.954829414099894,27,FALSE
+3,"conditional indirect contrasts","S5",58,"IRI C2, moderate impairment",0.976749628936411,,0.976749628936411,24,FALSE
+4,"conditional indirect contrasts","S5",59,"IRI C3, predominantly offline distress",0.993113119766906,,0.993113119766906,27,FALSE
+3,"conditional indirect contrasts","S5",59,"IRI C3, predominantly offline distress",0.569027647619776,,0.713872867156714,24,FALSE
+4,"conditional indirect contrasts","S5",60,"IRI C4, multidomain impairment",0.0102632698301876,,0.0554216570830131,27,FALSE
+3,"conditional indirect contrasts","S5",60,"IRI C4, multidomain impairment",0.00794818711463774,,0.145000065733562,24,FALSE
+4,"conditional indirect contrasts","S5",61,"BV, verbal victimization (C2 in four profiles)",0.00631084727243844,,0.0554216570830131,27,FALSE
+4,"conditional indirect contrasts","S5",62,"BV, physical victimization (C3 / C2)",0.0322448430769155,,0.124372966153817,27,FALSE
+3,"conditional indirect contrasts","S5",62,"BV, physical victimization (C3 / C2)",0.123458586976888,,0.493834347907554,24,FALSE
+4,"conditional indirect contrasts","S5",63,"BV, mixed verbal-property victimization (C4 / C3)",0.458050139279674,,0.650913355818484,27,FALSE
+3,"conditional indirect contrasts","S5",63,"BV, mixed verbal-property victimization (C4 / C3)",0.661816887619024,,0.756362157278884,24,FALSE
+4,"conditional indirect contrasts","S5",65,"AD C2, moderate study-related strain",0.00867625094850405,,0.0554216570830131,27,FALSE
+3,"conditional indirect contrasts","S5",65,"AD C2, moderate study-related strain",0.0120833388111302,,0.145000065733562,24,FALSE
+4,"conditional indirect contrasts","S5",66,"AD C1, low disengagement",0.382986141757877,,0.608272107497805,27,FALSE
+3,"conditional indirect contrasts","S5",66,"AD C1, low disengagement",0.423571398718415,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",67,"AD C4, pervasive disengagement",0.553141487980272,,0.720105293004518,27,FALSE
+3,"conditional indirect contrasts","S5",67,"AD C4, pervasive disengagement",0.594894055963929,,0.713872867156714,24,FALSE
+4,"conditional indirect contrasts","S5",68,"IRI C2, moderate impairment",0.243129155905944,,0.504960554573885,27,FALSE
+3,"conditional indirect contrasts","S5",68,"IRI C2, moderate impairment",0.252177921518599,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",69,"IRI C3, predominantly offline distress",0.734843688426307,,0.826699149479595,27,FALSE
+3,"conditional indirect contrasts","S5",69,"IRI C3, predominantly offline distress",0.383875590245337,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",70,"IRI C4, multidomain impairment",0.0226164441632348,,0.101773998734557,27,FALSE
+3,"conditional indirect contrasts","S5",70,"IRI C4, multidomain impairment",0.0222473418602934,,0.177978734882347,24,FALSE
+4,"conditional indirect contrasts","S5",71,"BV, verbal victimization (C2 in four profiles)",0.000284406515923654,,0.00767897592993865,27,TRUE
+4,"conditional indirect contrasts","S5",72,"BV, physical victimization (C3 / C2)",0.0688317629490711,,0.216288396513409,27,FALSE
+3,"conditional indirect contrasts","S5",72,"BV, physical victimization (C3 / C2)",0.239207437501336,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",73,"BV, mixed verbal-property victimization (C4 / C3)",0.828707081223961,,0.895003647721877,27,FALSE
+3,"conditional indirect contrasts","S5",73,"BV, mixed verbal-property victimization (C4 / C3)",0.890273561278966,,0.928981107421529,24,FALSE
+4,"conditional indirect contrasts","S5",75,"AD C2, moderate study-related strain",0.325499449642067,,0.58589900935572,27,FALSE
+3,"conditional indirect contrasts","S5",75,"AD C2, moderate study-related strain",0.403075845846366,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",76,"AD C1, low disengagement",0.414385789927755,,0.621578684891632,27,FALSE
+3,"conditional indirect contrasts","S5",76,"AD C1, low disengagement",0.307411507536281,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",77,"AD C4, pervasive disengagement",0.324974575768515,,0.58589900935572,27,FALSE
+3,"conditional indirect contrasts","S5",77,"AD C4, pervasive disengagement",0.327641458832098,,0.635357098077622,24,FALSE
+4,"conditional indirect contrasts","S5",78,"IRI C2, moderate impairment",0.0763271810285732,,0.216288396513409,27,FALSE
+3,"conditional indirect contrasts","S5",78,"IRI C2, moderate impairment",0.0410689248642132,,0.246413549185279,24,FALSE
+4,"conditional indirect contrasts","S5",79,"IRI C3, predominantly offline distress",0.56008189455907,,0.720105293004518,27,FALSE
+3,"conditional indirect contrasts","S5",79,"IRI C3, predominantly offline distress",0.465548080692474,,0.657244349212905,24,FALSE
+4,"conditional indirect contrasts","S5",80,"IRI C4, multidomain impairment",0.18452092377013,,0.452914994708502,27,FALSE
+3,"conditional indirect contrasts","S5",80,"IRI C4, multidomain impairment",0.185219150757367,,0.635037088310971,24,FALSE
+4,"conditional indirect contrasts","S5",81,"BV, verbal victimization (C2 in four profiles)",0.00711106073440921,,0.0554216570830131,27,FALSE
+4,"conditional indirect contrasts","S5",82,"BV, physical victimization (C3 / C2)",0.669447156369706,,0.807833005064361,27,FALSE
+3,"conditional indirect contrasts","S5",82,"BV, physical victimization (C3 / C2)",0.884795591647681,,0.928981107421529,24,FALSE
+4,"conditional indirect contrasts","S5",83,"BV, mixed verbal-property victimization (C4 / C3)",0.688154041351122,,0.807833005064361,27,FALSE
+3,"conditional indirect contrasts","S5",83,"BV, mixed verbal-property victimization (C4 / C3)",0.579164286065129,,0.713872867156714,24,FALSE
+4,"high minus low","S5",85,"AD C2, moderate study-related strain",0.272622949340203,,0.472130457599708,9,FALSE
+3,"high minus low","S5",85,"AD C2, moderate study-related strain",0.272291013430016,,0.532963645497601,8,FALSE
+4,"high minus low","S5",86,"AD C1, low disengagement",0.330449411070416,,0.472130457599708,9,FALSE
+3,"high minus low","S5",86,"AD C1, low disengagement",0.333102278436001,,0.532963645497601,8,FALSE
+4,"high minus low","S5",87,"AD C4, pervasive disengagement",0.199002778405118,,0.47087846480205,9,FALSE
+3,"high minus low","S5",87,"AD C4, pervasive disengagement",0.231751431214691,,0.532963645497601,8,FALSE
+4,"high minus low","S5",88,"IRI C2, moderate impairment",0.639211334962174,,0.719112751832445,9,FALSE
+3,"high minus low","S5",88,"IRI C2, moderate impairment",0.552479603444152,,0.631405261079031,8,FALSE
+4,"high minus low","S5",89,"IRI C3, predominantly offline distress",0.820958795313337,,0.820958795313337,9,FALSE
+3,"high minus low","S5",89,"IRI C3, predominantly offline distress",0.801677513584854,,0.801677513584854,8,FALSE
+4,"high minus low","S5",90,"IRI C4, multidomain impairment",0.0325403271804239,,0.292862944623815,9,FALSE
+3,"high minus low","S5",90,"IRI C4, multidomain impairment",0.025427723235931,,0.203421785887448,8,FALSE
+4,"high minus low","S5",91,"BV, verbal victimization (C2 in four profiles)",0.2092793176898,,0.47087846480205,9,FALSE
+4,"high minus low","S5",92,"BV, physical victimization (C3 / C2)",0.163514493169613,,0.47087846480205,9,FALSE
+3,"high minus low","S5",92,"BV, physical victimization (C3 / C2)",0.247103989696672,,0.532963645497601,8,FALSE
+4,"high minus low","S5",93,"BV, mixed verbal-property victimization (C4 / C3)",0.367212578133106,,0.472130457599708,9,FALSE
+3,"high minus low","S5",93,"BV, mixed verbal-property victimization (C4 / C3)",0.410890239345429,,0.547853652460572,8,FALSE
+4,"conditional sums","S5",95,"AD, low (-1 SD) family support",0.225715842271921,,0.338573763407881,9,FALSE
+3,"conditional sums","S5",95,"AD, low (-1 SD) family support",0.253310694776169,,0.477387822347771,9,FALSE
+4,"conditional sums","S5",96,"AD, mean family support",0.14156899540886,,0.338573763407881,9,FALSE
+3,"conditional sums","S5",96,"AD, mean family support",0.17256287613621,,0.477387822347771,9,FALSE
+4,"conditional sums","S5",97,"AD, high (+1 SD) family support",0.759135964074766,,0.759135964074766,9,FALSE
+3,"conditional sums","S5",97,"AD, high (+1 SD) family support",0.68852209928517,,0.68852209928517,9,FALSE
+4,"conditional sums","S5",98,"IRI, low (-1 SD) family support",0.181043906189388,,0.338573763407881,9,FALSE
+3,"conditional sums","S5",98,"IRI, low (-1 SD) family support",0.113436742538592,,0.477387822347771,9,FALSE
+4,"conditional sums","S5",99,"IRI, mean family support",0.194253388874173,,0.338573763407881,9,FALSE
+3,"conditional sums","S5",99,"IRI, mean family support",0.131762572716737,,0.477387822347771,9,FALSE
+4,"conditional sums","S5",100,"IRI, high (+1 SD) family support",0.585189504494889,,0.65833819255675,9,FALSE
+3,"conditional sums","S5",100,"IRI, high (+1 SD) family support",0.579902831777442,,0.68852209928517,9,FALSE
+4,"conditional sums","S5",101,"BV, low (-1 SD) family support",0.0116360783303922,,0.0642527977381912,9,FALSE
+3,"conditional sums","S5",101,"BV, low (-1 SD) family support",0.265215456859873,,0.477387822347771,9,FALSE
+4,"conditional sums","S5",102,"BV, mean family support",0.0142783994973758,,0.0642527977381912,9,FALSE
+3,"conditional sums","S5",102,"BV, mean family support",0.679148169330133,,0.68852209928517,9,FALSE
+4,"conditional sums","S5",103,"BV, high (+1 SD) family support",0.480131333556423,,0.617311714572544,9,FALSE
+3,"conditional sums","S5",103,"BV, high (+1 SD) family support",0.580920492269646,,0.68852209928517,9,FALSE
+4,"main paths","S5",105,"AD -> M",0.00670570179283863,,0.0117349781374676,7,TRUE
+3,"main paths","S5",105,"AD -> M",0.00857540183949236,,0.0200092709588155,7,TRUE
+4,"main paths","S5",106,"IRI -> M",0.0203693325786755,,0.0285170656101456,7,TRUE
+3,"main paths","S5",106,"IRI -> M",0.0135182322193765,,0.0236569063839088,7,TRUE
+4,"main paths","S5",107,"BV -> M",0.000822425056983521,,0.00191899179962822,7,TRUE
+3,"main paths","S5",107,"BV -> M",0.482588414496125,,0.563019816912146,7,FALSE
+4,"main paths","S5",109,"M -> Y",3.1708752040295e-25,,2.21961264282065e-24,7,TRUE
+3,"main paths","S5",109,"M -> Y",2.84221768451111e-25,,1.98955237915778e-24,7,TRUE
+4,"main paths","S5",115,"AD -> Y, controlling for M",0.949956136973958,,0.949956136973958,7,FALSE
+3,"main paths","S5",115,"AD -> Y, controlling for M",0.914508651499372,,0.914508651499372,7,FALSE
+4,"main paths","S5",116,"IRI -> Y, controlling for M",0.324687696294946,,0.378802312344103,7,FALSE
+3,"main paths","S5",116,"IRI -> Y, controlling for M",0.225172321863256,,0.315241250608559,7,FALSE
+4,"main paths","S5",117,"BV -> Y, controlling for M",4.71954835964156e-06,,1.65184192587455e-05,7,TRUE
+3,"main paths","S5",117,"BV -> Y, controlling for M",2.2615505094897e-06,,7.91542678321394e-06,7,TRUE
+4,"omnibus indirect tests","S5",111,"AD relative indirect contrasts",0.0125211451671531,,0.0187817177507297,3,TRUE
+3,"omnibus indirect tests","S5",111,"AD relative indirect contrasts",0.0123052109992715,,0.0276464849824677,3,TRUE
+4,"omnibus indirect tests","S5",112,"IRI relative indirect contrasts",0.0227129781663793,,0.0227129781663793,3,TRUE
+3,"omnibus indirect tests","S5",112,"IRI relative indirect contrasts",0.0184309899883118,,0.0276464849824677,3,TRUE
+4,"omnibus indirect tests","S5",113,"BV relative indirect contrasts",0.00281826583691347,,0.0084547975107404,3,TRUE
+3,"omnibus indirect tests","S5",113,"BV relative indirect contrasts",0.487936946036569,,0.487936946036569,3,FALSE
+4,"interactions","S5",119,"AD x Z -> M",0.501526241924911,,0.702136738694876,7,FALSE
+3,"interactions","S5",119,"AD x Z -> M",0.465191601211466,,0.548234194590907,7,FALSE
+4,"interactions","S5",120,"IRI x Z -> M",0.206527849660363,,0.426846194556237,7,FALSE
+3,"interactions","S5",120,"IRI x Z -> M",0.258677237072738,,0.548234194590907,7,FALSE
+4,"interactions","S5",121,"BV x Z -> M",0.610905173446325,,0.712722702354046,7,FALSE
+3,"interactions","S5",121,"BV x Z -> M",0.469915023935063,,0.548234194590907,7,FALSE
+4,"interactions","S5",122,"M x Z -> Y",0.00230786610357603,,0.00807753136251609,7,TRUE
+3,"interactions","S5",122,"M x Z -> Y",0.000657443896550009,,0.00460210727585007,7,TRUE
+4,"interactions","S5",123,"AD x Z -> Y",0.243912111174993,,0.426846194556237,7,FALSE
+3,"interactions","S5",123,"AD x Z -> Y",0.335604007994176,,0.548234194590907,7,FALSE
+4,"interactions","S5",124,"IRI x Z -> Y",0.713419631382593,,0.713419631382593,7,FALSE
+3,"interactions","S5",124,"IRI x Z -> Y",0.662682184607559,,0.662682184607559,7,FALSE
+4,"interactions","S5",125,"BV x Z -> Y",0.00131340622930668,,0.00807753136251609,7,TRUE
+3,"interactions","S5",125,"BV x Z -> Y",0.0323962125450602,,0.113386743907711,7,FALSE
+4,"main paths","S5",24,"M -> Y at mean family support (b)",3.17087520402954e-25,109,2.21961264282065e-24,7,TRUE
+3,"main paths","S5",24,"M -> Y at mean family support (b)",2.84221768451113e-25,109,1.98955237915778e-24,7,TRUE
+4,"interactions","S5",25,"M x Z -> Y",0.00230786610357603,122,0.00807753136251609,7,TRUE
+3,"interactions","S5",25,"M x Z -> Y",0.000657443896550008,122,0.00460210727585007,7,TRUE
+4,"six profile comparisons","T2",1,"school.thoughts",0.000228572105440137,,0.000457144210880275,6,TRUE
+4,"six profile comparisons","T2",2,"school.self_harm",0.0949954567544596,,0.113994548105351,6,FALSE
+4,"six profile comparisons","T2",3,"internet.thoughts",0.000625571245803809,,0.000938356868705714,6,TRUE
+4,"six profile comparisons","T2",4,"internet.self_harm",0.350288995611814,,0.350288995611814,6,FALSE
+4,"six profile comparisons","T2",5,"injury.thoughts",7.1018305341518e-06,,2.13054916024554e-05,6,TRUE
+4,"six profile comparisons","T2",6,"injury.self_harm",1.19450519268537e-08,,7.16703115611223e-08,6,TRUE
+0,"sex comparisons","T1",1,"Thoughts/preparation",0.0407436424576816,,0.0611154636865225,3,FALSE
+0,"sex comparisons","T1",2,"Self-harm",0.0324965837192608,,0.0611154636865225,3,FALSE
+0,"sex comparisons","T1",3,"Both",0.213249894378526,,0.213249894378526,3,FALSE

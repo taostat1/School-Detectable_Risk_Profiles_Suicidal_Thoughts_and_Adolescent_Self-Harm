@@ -33,6 +33,8 @@ figure1_ancova <- function(data, questions, age_c, sex, outcomes) {
         domain,outcome,chi2=unname(test["chi2"]),df=3L,p=unname(test["p"]))
     }
   }
+  tests <- do.call(rbind, test_rows)
+  tests$p_bh <- p.adjust(tests$p, method = "BH")
   list(n=N, covariates=c("age","sex"), profiles=do.call(rbind,profile_rows),
-                 figure1=do.call(rbind,mean_rows),tests=do.call(rbind,test_rows))
+       figure1=do.call(rbind,mean_rows), tests=tests)
 }

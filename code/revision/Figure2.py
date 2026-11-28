@@ -80,7 +80,7 @@ def p_value(p):
         raise ValueError(f"Invalid p value {p}")
     if p < .001:
         return "<.001"
-    return (f"{p:.4f}" if p < .005 else f"{p:.3f}").lstrip("0")
+    return (f"{p:.4f}" if p < .01 else f"{p:.3f}").lstrip("0")
 
 
 def direction(values, p):
@@ -92,6 +92,26 @@ def direction(values, p):
     if all(value < 0 for value in values):
         return "Negative"
     return "Mixed"
+
+
+def adjusted_path_tests(tests):
+    for interaction in (False, True):
+        family = [test for test in tests if test["path"].endswith("by_family") == interaction]
+        if len(family) != 7:
+            raise ValueError("Expected seven main paths and seven interaction tests.")
+        ranked = sorted(family, key=lambda test: test["p"])
+        previous = 1.0
+        for rank in range(len(ranked), 0, -1):
+            test = ranked[rank - 1]
+            raw = test["p"]
+            if not 0 <= raw <= 1:
+                raise ValueError(f"Invalid unadjusted p value {raw}")
+            adjusted = min(previous, raw * len(ranked) / rank)
+            if "p_bh" in test and not math.isclose(adjusted, test["p_bh"], rel_tol=1e-12):
+                raise ValueError(f"Stored BH value disagrees for {test['domain']} {test['path']}")
+            test["p_bh"] = adjusted
+            previous = adjusted
+    return {(test["domain"], test["path"]): test for test in tests}
 
 
 def tex_values(estimates, tests):
@@ -111,7 +131,7 @@ def tex_values(estimates, tests):
             domains = ["all"] if scalar else [domain[0] for domain in DOMAINS]
             for i, domain in enumerate(domains, 1):
                 test = tests[(domain, path)]
-                p = test["p"]
+                p = test["p_bh"]
                 if scalar:
                     entry = estimates["b_z" if interaction else "b"]
                     est, lower, upper = (compact_number(entry[k]) for k in ("est", "lo", "hi"))
@@ -144,12 +164,11 @@ def tex_values(estimates, tests):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data", type=Path, default=HERE / "Figure2_data.json")
-    parser.add_argument("--output", type=Path,
-                        default=HERE.parents[1] / "output" / "Figure" / "Figure_2.pdf")
+    parser.add_argument("--output", type=Path, default=HERE.parents[1] / "output" / "Figure" / "Figure_2.pdf")
     args = parser.parse_args()
     data = json.loads(args.data.read_text(encoding="utf-8-sig"))
     estimates = data["estimates"]
-    tests = {(row["domain"], row["path"]): row for row in data["tests"]}
+    tests = adjusted_path_tests(data["tests"])
     if (data["family_items"] != [4, 36] or data["covariates"] != ["age", "sex"]
             or data["n"] != 508 or data["profiles"] != 4 or len(tests) != 14):
         raise ValueError("Expected the age- and sex-adjusted four-profile, two-item model.")
